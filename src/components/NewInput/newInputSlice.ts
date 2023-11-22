@@ -1,7 +1,7 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit"
-import mockAccounts from "src/data/mockAccounts"
-import dayjs, { Dayjs } from 'dayjs';
-import { RootState } from "src/app/store";
+import { mockAccounts } from "src/data/mockAccounts"
+import dayjs, { Dayjs } from "dayjs"
+import { RootState } from "src/app/store"
 
 const mockBanks = Object.keys(mockAccounts)
 
@@ -37,7 +37,7 @@ const initialState: NewInputState = {
   transaction_date: null,
   posted_date: null,
   memo: null,
-  amount: 0
+  amount: 0,
 }
 
 export const newInputSlice = createSlice({
@@ -60,10 +60,8 @@ export const newInputSlice = createSlice({
       state.account = action.payload
     },
     clearInput: (state) => {
-      state.banks = mockBanks,
-      state.bank = ""
-      state.account = "",
-      state.accountList = []
+      ;(state.banks = mockBanks), (state.bank = "")
+      ;(state.account = ""), (state.accountList = [])
     },
     selectTransationDate: (state, action) => {
       state.transaction_date = action.payload
@@ -76,7 +74,7 @@ export const newInputSlice = createSlice({
     },
     setAmount: (state, action) => {
       state.amount = action.payload
-    }
+    },
   },
 })
 
@@ -86,10 +84,10 @@ export const getAmount = (state: RootState) => state.newInput.amount
 export const getBanks = (state: RootState) => state.newInput.banks
 export const getBank = (state: RootState) => state.newInput.bank
 export const getAccountList = (state: RootState) => state.newInput.accountList
-export const getTransactionDate = (state: RootState) => state.newInput.transaction_date
+export const getTransactionDate = (state: RootState) =>
+  state.newInput.transaction_date
 export const getPostedDate = (state: RootState) => state.newInput.posted_date
 export const getMemo = (state: RootState) => state.newInput.memo
-
 
 export const {
   openDialog,

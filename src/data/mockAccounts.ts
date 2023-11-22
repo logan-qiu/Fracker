@@ -5,7 +5,7 @@ interface Accounts {
   [bank: string]: Account
 }
 
-const mockAccounts: Accounts = {
+export const mockAccounts: Accounts = {
   "Bank of America": {
     accounts: ["9401", "checking 5858", "6273", "6292", "0055"],
   },
@@ -16,5 +16,14 @@ const mockAccounts: Accounts = {
     accounts: ["2007", "4003"],
   },
 }
-
-export default mockAccounts
+export const mockCategory: string[] = [
+  "grocery",
+  "util",
+  "amazon",
+  "renovation",
+  "restaurant",
+  "gift",
+  "gas",
+  "medicine",
+  "misc",
+]

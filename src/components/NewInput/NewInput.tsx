@@ -35,7 +35,7 @@ import {
   getAmount,
 } from "./newInputSlice.ts"
 import { useEffect, useState } from "react"
-import mockAccounts from "src/data/mockAccounts.ts"
+import { mockAccounts } from "src/data/mockAccounts.ts"
 import { useDispatch, useSelector } from "react-redux"
 import { RootState } from "../../app/store.ts"
 import dayjs, { Dayjs } from "dayjs"
