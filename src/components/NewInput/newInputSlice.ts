@@ -1,6 +1,7 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 import mockAccounts from "src/data/mockAccounts"
 import dayjs, { Dayjs } from 'dayjs';
+import { RootState } from "src/app/store";
 
 const mockBanks = Object.keys(mockAccounts)
 
@@ -73,6 +74,15 @@ export const newInputSlice = createSlice({
     }
   },
 })
+
+export const getDialogOpen = (state: RootState) => state.newInput.dialogOpen
+export const getAccount = (state: RootState) => state.newInput.account
+export const getBanks = (state: RootState) => state.newInput.banks
+export const getBank = (state: RootState) => state.newInput.bank
+export const getAccountList = (state: RootState) => state.newInput.accountList
+export const getTransactionDate = (state: RootState) => state.newInput.transaction_date
+export const getPostedDate = (state: RootState) => state.newInput.posted_date
+export const getMemo = (state: RootState) => state.newInput.memo
 
 export const {
   openDialog,

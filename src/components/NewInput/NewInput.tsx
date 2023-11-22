@@ -23,6 +23,14 @@ import {
   selectTransationDate,
   selectPostedDate,
   createMemo,
+  getDialogOpen,
+  getBanks,
+  getBank,
+  getAccountList,
+  getTransactionDate,
+  getPostedDate,
+  getMemo,
+  getAccount,
 } from "./newInputSlice.ts"
 import { useEffect, useState } from "react"
 import mockAccounts from "src/data/mockAccounts.ts"
@@ -33,9 +41,6 @@ import { NumericFormat } from "react-number-format"
 
 const NewInput = () => {
   const dispatch = useDispatch()
-  const dialogOpen = useSelector(
-    (state: RootState) => state.newInput.dialogOpen,
-  )
   const style = {
     alignSelf: "center",
     display: "flex",
@@ -48,19 +53,15 @@ const NewInput = () => {
     border: "2px none #000",
     "& .MuiTextField-root": { m: 0.5 },
   }
-  const account = useSelector((state: RootState) => state.newInput.account)
-  const banks = useSelector((state: RootState) => state.newInput.banks)
-  const bank = useSelector((state: RootState) => state.newInput.bank)
-  const accountList = useSelector(
-    (state: RootState) => state.newInput.accountList,
-  )
-  const transaction_date = useSelector(
-    (state: RootState) => state.newInput.transaction_date,
-  )
-  const posted_date = useSelector(
-    (state: RootState) => state.newInput.posted_date,
-  )
-  const memo = useSelector((state: RootState) => state.newInput.memo)
+  const dialogOpen = useSelector(getDialogOpen)
+  const account = useSelector(getAccount)
+  const banks = useSelector(getBanks)
+  const bank = useSelector(getBank)
+  const accountList = useSelector(getAccountList)
+  const transaction_date = useSelector(getTransactionDate)
+  const posted_date = useSelector(getPostedDate)
+  const memo = useSelector(getMemo)
+  // const { dialogOpen, setDialogOpen } = useDialog();
   const handleBankChange = (event: SelectChangeEvent) => {
     dispatch(selectBank(event.target.value as string))
   }
@@ -176,7 +177,7 @@ const NewInput = () => {
               variant="outlined"
               fullWidth
               type="number"
-              inputProps={{ step: 0.5, maxlength: 4 }}
+              inputProps={{ step: 0.5 }}
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">$</InputAdornment>
