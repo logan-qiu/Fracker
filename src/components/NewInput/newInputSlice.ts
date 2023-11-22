@@ -21,6 +21,7 @@ export interface NewInputState {
   bank: string
   accountList: string[]
   account: string
+  amount: number
   transaction_date: Dayjs | null
   posted_date: Dayjs | null
   memo: string | null
@@ -36,6 +37,7 @@ const initialState: NewInputState = {
   transaction_date: null,
   posted_date: null,
   memo: null,
+  amount: 0
 }
 
 export const newInputSlice = createSlice({
@@ -71,18 +73,23 @@ export const newInputSlice = createSlice({
     },
     createMemo: (state, action) => {
       state.memo = action.payload
+    },
+    setAmount: (state, action) => {
+      state.amount = action.payload
     }
   },
 })
 
 export const getDialogOpen = (state: RootState) => state.newInput.dialogOpen
 export const getAccount = (state: RootState) => state.newInput.account
+export const getAmount = (state: RootState) => state.newInput.amount
 export const getBanks = (state: RootState) => state.newInput.banks
 export const getBank = (state: RootState) => state.newInput.bank
 export const getAccountList = (state: RootState) => state.newInput.accountList
 export const getTransactionDate = (state: RootState) => state.newInput.transaction_date
 export const getPostedDate = (state: RootState) => state.newInput.posted_date
 export const getMemo = (state: RootState) => state.newInput.memo
+
 
 export const {
   openDialog,
@@ -94,6 +101,7 @@ export const {
   selectTransationDate,
   selectPostedDate,
   createMemo,
+  setAmount,
 } = newInputSlice.actions
 
 export default newInputSlice.reducer

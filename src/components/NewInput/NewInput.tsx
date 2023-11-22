@@ -23,6 +23,7 @@ import {
   selectTransationDate,
   selectPostedDate,
   createMemo,
+  setAmount,
   getDialogOpen,
   getBanks,
   getBank,
@@ -31,6 +32,7 @@ import {
   getPostedDate,
   getMemo,
   getAccount,
+  getAmount,
 } from "./newInputSlice.ts"
 import { useEffect, useState } from "react"
 import mockAccounts from "src/data/mockAccounts.ts"
@@ -55,6 +57,7 @@ const NewInput = () => {
   }
   const dialogOpen = useSelector(getDialogOpen)
   const account = useSelector(getAccount)
+  const amount = useSelector(getAmount)
   const banks = useSelector(getBanks)
   const bank = useSelector(getBank)
   const accountList = useSelector(getAccountList)
@@ -80,6 +83,9 @@ const NewInput = () => {
   }
   const handleMemoChange = (memo: string) => {
     dispatch(createMemo(memo))
+  }
+  const handleAmountChange = (amount: number) => {
+    dispatch(setAmount(amount))
   }
 
   useEffect(() => {
@@ -183,6 +189,9 @@ const NewInput = () => {
                   <InputAdornment position="start">$</InputAdornment>
                 ),
               }}
+              onChange={(event) =>
+                handleAmountChange(Number(event.target.value))
+              }
             />
             <TextField
               id="new-input"
