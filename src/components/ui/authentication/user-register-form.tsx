@@ -20,14 +20,15 @@ export function UserRegisterForm({
   className,
   ...props
 }: UserRegisterFormProps) {
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isMissing, setIsMissing] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isMissing, setIsMissing] = useState(false);
   const [formData, setFormData] = useState<signupFormData>({
     username: "",
     password: "",
     confirmedPassword: "",
     email: "",
   });
+
   const handleDataChange = (
     dataType: keyof signupFormData,
     newValue: string
@@ -39,6 +40,7 @@ export function UserRegisterForm({
       };
     });
   };
+
   async function onSubmit(event: React.SyntheticEvent) {
     event.preventDefault();
     setIsLoading(true);
@@ -47,6 +49,7 @@ export function UserRegisterForm({
       setIsLoading(false);
     }, 3000);
   }
+  
   const validateMatchedPassword = () => {
     const { password, confirmedPassword } = formData;
     {
