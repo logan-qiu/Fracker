@@ -49,13 +49,13 @@ export function UserRegisterForm({
       setIsLoading(false);
     }, 3000);
   }
-  
+
   const validateMatchedPassword = () => {
     const { password, confirmedPassword } = formData;
     {
-      formData.password.length > 0 &&
-      formData.confirmedPassword.length > 0 &&
-      formData.password !== formData.confirmedPassword ? (
+      password.length > 0 &&
+      confirmedPassword.length > 0 &&
+      password !== confirmedPassword ? (
         <p className="text-xs text-red-600">Password has to be the same!</p>
       ) : null;
     }
