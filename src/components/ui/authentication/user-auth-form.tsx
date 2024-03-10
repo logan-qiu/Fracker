@@ -1,26 +1,69 @@
-"use client"
+"use client";
 
-import * as React from "react"
+import * as React from "react";
 
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/ui/icons"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { cn } from "@/lib/utils";
+import { Icons } from "@/components/ui/icons";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { signIn } from "@/app/api/auth/[...nextauth]/route";
+import { ChangeEvent, useEffect, useState } from "react";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
+interface loginFormData {
+  username: string;
+  password: string;
+}
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
-  const [isLoading, setIsLoading] = React.useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState(false);
+  const [formData, setFormData] = useState<loginFormData>({
+    username: "",
+    password: "",
+  });
+  const [isDisabled, setIsDisabled] = useState(false);
+
+  const handleDataChange = (
+    dataType: keyof loginFormData,
+    newValue: string
+  ) => {
+    setFormData((prevData) => {
+      return {
+        ...prevData,
+        [dataType]: newValue,
+      };
+    });
+  };
 
   async function onSubmit(event: React.SyntheticEvent) {
-    event.preventDefault()
-    setIsLoading(true)
+    event.preventDefault();
+    setIsLoading(true);
 
     setTimeout(() => {
-      setIsLoading(false)
-    }, 3000)
+      setIsLoading(false);
+    }, 3000);
+
+    try {
+      const result = await signIn("credentials", {
+        ...formData,
+        callbackurl: "/dashboard",
+        redirect: false
+      });
+      console.log(result);
+    } catch (err) {
+      console.log(err);
+    }
   }
+
+  useEffect(() => {
+    const { username, password } = formData;
+    if (username && password) {
+      setIsDisabled(false);
+    } else {
+      setIsDisabled(true);
+    }
+  }, [formData]);
 
   return (
     <div className={cn("grid gap-6", className)} {...props}>
@@ -37,8 +80,11 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               autoCapitalize="none"
               autoCorrect="off"
               disabled={isLoading}
+              onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                handleDataChange("username", e.target.value)
+              }
             />
-             <Label className="sr-only" htmlFor="password">
+            <Label className="sr-only" htmlFor="password">
               Password
             </Label>
             <Input
@@ -48,9 +94,12 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               autoCapitalize="none"
               autoCorrect="off"
               disabled={isLoading}
+              onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                handleDataChange("password", e.target.value)
+              }
             />
           </div>
-          <Button disabled={isLoading}>
+          <Button disabled={isLoading || isDisabled}>
             {isLoading && (
               <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
             )}
@@ -77,5 +126,5 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
         GitHub
       </Button>
     </div>
-  )
+  );
 }

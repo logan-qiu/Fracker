@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ChangeEvent, useEffect, useState } from "react";
+import axios from "axios";
 
 interface UserRegisterFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface signupFormData {
@@ -44,10 +45,16 @@ export function UserRegisterForm({
   async function onSubmit(event: React.SyntheticEvent) {
     event.preventDefault();
     setIsLoading(true);
-
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
+    try {
+      const { username, password, email } = formData;
+      const body = JSON.stringify({ username, password, email });
+      await axios
+        .post("/api/register", { body })
+        .then((res) => console.log(res));
+    } catch (err) {
+      console.log(err);
+    }
+    setIsLoading(false);
   }
 
   const validateMatchedPassword = () => {
@@ -71,21 +78,24 @@ export function UserRegisterForm({
   };
 
   const validatePassword = () => {
-    const {password} = formData;
+    const { password } = formData;
     if (password.length < 6 && password.length > 0) {
       return (
-        <p className="text-xs text-red-600">Password has to be at minimum 6 digits</p>
-      )
+        <p className="text-xs text-red-600">
+          Password has to be at minimum 6 digits
+        </p>
+      );
     }
-  }
+  };
 
   const handleRegister = () => {
-    const {username, password, email} = formData;
+    const { username, password, email } = formData;
     const cacheData = {
-      password, email
-    }
-    localStorage.setItem(username, JSON.stringify(cacheData))
-  }
+      password,
+      email,
+    };
+    localStorage.setItem(username, JSON.stringify(cacheData));
+  };
 
   useEffect(() => {
     if (Object.values(formData).every((inputVal) => inputVal.length > 0)) {
@@ -93,7 +103,7 @@ export function UserRegisterForm({
     } else {
       setIsMissing(true);
     }
-  }, [formData])
+  }, [formData]);
 
   return (
     <div className={cn("grid gap-6", className)} {...props}>
