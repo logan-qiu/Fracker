@@ -45,11 +45,11 @@ export function UserRegisterForm({
   async function onSubmit(event: React.SyntheticEvent) {
     event.preventDefault();
     setIsLoading(true);
+    const { username, password, email } = formData;
     try {
-      const { username, password, email } = formData;
-      const body = JSON.stringify({ username, password, email });
+      console.log({username, password, email})
       await axios
-        .post("/api/register", { body })
+        .post("/api/register", { username, password, email })
         .then((res) => console.log(res));
     } catch (err) {
       console.log(err);

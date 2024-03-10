@@ -21,7 +21,7 @@ export const {
       },
       async authorize(credentials) {
         const { username, password } = loginUserSchema.parse(credentials);
-        console.log(username, password);
+        console.log(1, username, password);
         const user = await prisma.user.findUnique({
           where: { username },
         });
