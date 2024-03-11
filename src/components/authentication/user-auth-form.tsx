@@ -7,8 +7,9 @@ import { Icons } from "@/components/ui/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { signIn } from "@/app/api/auth/[...nextauth]/route";
+import { signIn } from "next-auth/react";
 import { ChangeEvent, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface loginFormData {
@@ -24,6 +25,8 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   });
   const [isDisabled, setIsDisabled] = useState(false);
 
+  const router = useRouter();
+  
   const handleDataChange = (
     dataType: keyof loginFormData,
     newValue: string
@@ -43,14 +46,19 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     setTimeout(() => {
       setIsLoading(false);
     }, 3000);
+    const {username, password} = formData;
+    console.log('auth form');
 
     try {
       const result = await signIn("credentials", {
-        ...formData,
-        callbackurl: "/dashboard",
-        redirect: false
+        username,
+        password,
+        callbackUrl: "/dashboard",
+        redirect: false,
       });
-      console.log(result);
+      if (result && result?.status === 200) {
+        router.push('/dashboard');
+      }
     } catch (err) {
       console.log(err);
     }
