@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ChangeEvent, useEffect, useState } from "react";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 
 interface UserRegisterFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface signupFormData {
@@ -17,6 +18,7 @@ interface signupFormData {
   confirmedPassword: string;
   email: string;
 }
+
 export function UserRegisterForm({
   className,
   ...props
@@ -29,6 +31,7 @@ export function UserRegisterForm({
     confirmedPassword: "",
     email: "",
   });
+  const router = useRouter();
 
   const handleDataChange = (
     dataType: keyof signupFormData,
@@ -47,10 +50,14 @@ export function UserRegisterForm({
     setIsLoading(true);
     const { username, password, email } = formData;
     try {
-      console.log({username, password, email})
-      await axios
-        .post("/api/register", { username, password, email })
-        .then((res) => console.log(res));
+      const res = await axios.post("/api/register", {
+        username,
+        password,
+        email,
+      });
+      if (res.status === 201) {
+        router.push('/auth/login');
+      }
     } catch (err) {
       console.log(err);
     }

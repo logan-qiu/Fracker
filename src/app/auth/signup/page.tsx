@@ -1,7 +1,5 @@
-import Agreement from "@/components/ui/authentication/agreement";
-import { UserRegisterForm } from "@/components/ui/authentication/user-register-form";
-import Link from "next/link";
-import React from "react";
+import Agreement from "@/components/authentication/Agreement";
+import { UserRegisterForm } from "@/components/authentication/user-register-form";
 
 function page() {
   return (
