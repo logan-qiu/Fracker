@@ -26,7 +26,7 @@ export const catchORMError = (
 
 export const ApiResponse = (
   defaultMsg: string,
-  data: unknown
+  data?: unknown
 ): IApiResponse => {
   return {
     statusCode: 'OK',

@@ -1,0 +1,1 @@
+export type credentialType = Partial<Record<"username" | "password", unknown>>;
