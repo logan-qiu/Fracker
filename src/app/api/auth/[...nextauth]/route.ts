@@ -1,8 +1,5 @@
 import NextAuth from "next-auth";
 import Credentials from "@auth/core/providers/credentials";
-import prisma from "@/lib/prisma";
-import bcrypt from "bcryptjs";
-import { loginUserSchema } from "@/lib/formatValidation";
 import { authorize } from "@/lib/auth";
 
 export const {

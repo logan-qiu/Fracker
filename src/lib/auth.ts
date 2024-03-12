@@ -1,11 +1,12 @@
 import { credentialType } from "@/types/auth";
 import { loginUserSchema } from "./formatValidation";
 import bcrypt from "bcryptjs";
+import prisma from '@/lib/prisma';
 
 export const authorize = async (credentials: credentialType) => {
   try {
     const { username, password } = loginUserSchema.parse(credentials);
-    
+
     const user = await prisma.user.findUnique({
       where: { username },
     });
