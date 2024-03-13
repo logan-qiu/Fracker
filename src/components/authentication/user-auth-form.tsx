@@ -46,7 +46,6 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       setIsLoading(false);
     }, 3000);
     const {username, password} = formData;
-    console.log('auth form');
 
     try {
       const result = await signIn("credentials", {
@@ -55,6 +54,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
         callbackUrl: "/dashboard",
         redirect: false,
       });
+      console.log('res: ', result)
       if (result && result?.status === 200) {
         router.push('/dashboard');
       }

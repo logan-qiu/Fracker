@@ -3,6 +3,7 @@ import Credentials from "@auth/core/providers/credentials";
 import GitHubProvider from "next-auth/providers/github";
 import { loginUserSchema } from "@/lib/formatValidation";
 import bcrypt from "bcryptjs";
+import prisma from '@/lib/prisma';
 
 export const {
   handlers: { GET, POST },
@@ -45,12 +46,8 @@ export const {
   ],
   // 这个是做什么的？这个是github返回protected info后会执行的callbacks
   callbacks: {
-    async redirect ({ url, baseUrl}) {
-      console.log(url, baseUrl);
-      return `${baseUrl}/dashboard`;
-    },
     async authorized({ request, auth }) {
-      console.log('hihi');
+      console.log('auth.ts: authorized');
       
       return !!auth?.user;
     },
