@@ -1,7 +1,5 @@
 "use client";
 
-import * as React from "react";
-
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/ui/icons";
 import { Button } from "@/components/ui/button";
@@ -10,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { signIn } from "next-auth/react";
 import { ChangeEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import GithubSSOButton from "./GithubSSOButton";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface loginFormData {
@@ -26,7 +25,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   const [isDisabled, setIsDisabled] = useState(false);
 
   const router = useRouter();
-  
+
   const handleDataChange = (
     dataType: keyof loginFormData,
     newValue: string
@@ -87,6 +86,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               type="text"
               autoCapitalize="none"
               autoCorrect="off"
+              autoComplete="username"
               disabled={isLoading}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleDataChange("username", e.target.value)
@@ -101,6 +101,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               type="password"
               autoCapitalize="none"
               autoCorrect="off"
+              autoComplete="current-password"
               disabled={isLoading}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleDataChange("password", e.target.value)
@@ -125,14 +126,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
           </span>
         </div>
       </div>
-      <Button variant="outline" type="button" disabled={isLoading}>
-        {isLoading ? (
-          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
-        ) : (
-          <Icons.gitHub className="mr-2 h-4 w-4" />
-        )}{" "}
-        GitHub
-      </Button>
+      <GithubSSOButton isLoading={isLoading}/>
     </div>
   );
 }

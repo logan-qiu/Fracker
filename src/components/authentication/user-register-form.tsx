@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { ChangeEvent, useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import GithubSSOButton from "./GithubSSOButton";
 
 interface UserRegisterFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface signupFormData {
@@ -95,15 +96,6 @@ export function UserRegisterForm({
     }
   };
 
-  const handleRegister = () => {
-    const { username, password, email } = formData;
-    const cacheData = {
-      password,
-      email,
-    };
-    localStorage.setItem(username, JSON.stringify(cacheData));
-  };
-
   useEffect(() => {
     if (Object.values(formData).every((inputVal) => inputVal.length > 0)) {
       setIsMissing(false);
@@ -181,7 +173,7 @@ export function UserRegisterForm({
               required
             />
           </div>
-          <Button disabled={isLoading || isMissing} onClick={handleRegister}>
+          <Button disabled={isLoading || isMissing}>
             {isLoading && (
               <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
             )}
@@ -199,14 +191,7 @@ export function UserRegisterForm({
           </span>
         </div>
       </div>
-      <Button variant="outline" type="button" disabled={isLoading}>
-        {isLoading ? (
-          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
-        ) : (
-          <Icons.gitHub className="mr-2 h-4 w-4" />
-        )}{" "}
-        GitHub
-      </Button>
+      <GithubSSOButton isLoading={isLoading} />
     </div>
   );
 }
