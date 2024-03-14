@@ -1,4 +1,4 @@
-import NextAuth from "next-auth";
+import NextAuth, { AuthError } from "next-auth";
 import Credentials from "@auth/core/providers/credentials";
 import GitHubProvider from "next-auth/providers/github";
 import { loginUserSchema } from "@/lib/formatValidation";
@@ -29,7 +29,8 @@ export const {
           });
 
           if (!user) return null;
-
+          console.log('user', user);
+          
           const isPasswordValid = await bcrypt.compare(password, user.password);
           return isPasswordValid ? user : null;
         } catch (error) {

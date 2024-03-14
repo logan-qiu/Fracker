@@ -9,6 +9,7 @@ import { signIn } from "next-auth/react";
 import { ChangeEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import GithubSSOButton from "./GithubSSOButton";
+import { useCustomToast } from "@/hooks/useCustomToast";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface loginFormData {
@@ -25,6 +26,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   const [isDisabled, setIsDisabled] = useState(false);
 
   const router = useRouter();
+  const { showToast } = useCustomToast();
 
   const handleDataChange = (
     dataType: keyof loginFormData,
@@ -45,7 +47,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     setTimeout(() => {
       setIsLoading(false);
     }, 3000);
-    const {username, password} = formData;
+    const { username, password } = formData;
 
     try {
       const result = await signIn("credentials", {
@@ -54,9 +56,30 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
         callbackUrl: "/dashboard",
         redirect: false,
       });
-      console.log('res: ', result)
-      if (result && result?.status === 200) {
-        router.push('/dashboard');
+      console.log("res: ", result);
+      /*
+      result可能会返回:则不会掉入catch block
+      {
+        "error": "CredentialsSignin",
+        "status": 200,
+        "ok": true,
+        "url": null
+      }
+      github上有很多人说v4版本已经修复此问题但v5重新出现了
+      */
+      if (!result?.error && result?.status === 200) {
+        router.push("/dashboard");
+      }
+      if (result?.error) {
+        switch (result.error) {
+          case "CredentialsSignin":
+            showToast({
+              title: "Invalid Credential",
+              description: "User doesn't exist or password incorrect, please try again"
+            })
+          default:
+            return null;
+        }
       }
     } catch (err) {
       console.log(err);
@@ -126,7 +149,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
           </span>
         </div>
       </div>
-      <GithubSSOButton isLoading={isLoading}/>
+      <GithubSSOButton isLoading={isLoading} />
     </div>
   );
 }
