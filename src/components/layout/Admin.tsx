@@ -1,16 +1,13 @@
 "use client";
 import * as React from "react";
 import {
-  AlertCircle,
-  Archive,
-  ArchiveX,
-  File,
-  Inbox,
-  MessagesSquare,
-  Send,
-  ShoppingCart,
-  Trash2,
-  Users2,
+  PanelsTopLeft,
+  WalletCards,
+  PieChart,
+  UsersRound,
+  Settings,
+  Landmark,
+  SquareKanban,
 } from "lucide-react";
 import { Icons } from "@/components/common/Icons";
 import { cn } from "@/lib/utils";
@@ -101,39 +98,33 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             isCollapsed={isCollapsed}
             links={[
               {
-                title: "Inbox",
-                label: "128",
-                icon: Inbox,
+                title: "Overview",
+                icon: PanelsTopLeft,
                 variant: "default",
               },
               {
-                title: "Drafts",
-                label: "9",
-                icon: File,
+                title: "Account",
+                icon: WalletCards,
                 variant: "ghost",
               },
               {
-                title: "Sent",
-                label: "",
-                icon: Send,
+                title: "Bank",
+                icon: Landmark,
                 variant: "ghost",
               },
               {
-                title: "Junk",
-                label: "23",
-                icon: ArchiveX,
+                title: "Recent",
+                icon: PieChart,
                 variant: "ghost",
               },
               {
-                title: "Trash",
-                label: "",
-                icon: Trash2,
+                title: "Category",
+                icon: SquareKanban,
                 variant: "ghost",
               },
               {
-                title: "Archive",
-                label: "",
-                icon: Archive,
+                title: "User",
+                icon: UsersRound,
                 variant: "ghost",
               },
             ]}
@@ -143,33 +134,8 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             isCollapsed={isCollapsed}
             links={[
               {
-                title: "Social",
-                label: "972",
-                icon: Users2,
-                variant: "ghost",
-              },
-              {
-                title: "Updates",
-                label: "342",
-                icon: AlertCircle,
-                variant: "ghost",
-              },
-              {
-                title: "Forums",
-                label: "128",
-                icon: MessagesSquare,
-                variant: "ghost",
-              },
-              {
-                title: "Shopping",
-                label: "8",
-                icon: ShoppingCart,
-                variant: "ghost",
-              },
-              {
-                title: "Promotions",
-                label: "21",
-                icon: Archive,
+                title: "Settings",
+                icon: Settings,
                 variant: "ghost",
               },
             ]}
