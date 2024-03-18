@@ -29,7 +29,6 @@ export const {
           });
 
           if (!user) return null;
-          console.log('user', user);
           
           const isPasswordValid = await bcrypt.compare(password, user.password);
           return isPasswordValid ? user : null;

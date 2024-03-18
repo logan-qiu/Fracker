@@ -1,9 +1,11 @@
-import React from 'react'
+ 
 
 function page() {
   return (
-    <div>dasssshh</div>
-  )
+    <>
+    ahhhhh this is my dashboard
+    </>
+  );
 }
 
-export default page
+export default page;
