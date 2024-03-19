@@ -41,14 +41,14 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
     defaultCollapsed ?? false
   );
 
-  console.log({ defaultLayout });
+  // console.log({ defaultLayout });
 
   return (
     <TooltipProvider delayDuration={0}>
       <ResizablePanelGroup
         direction='horizontal'
         onLayout={(sizes: number[]) => {
-          console.log({ sizes });
+          // console.log({ sizes });
           document.cookie = `react-resizable-panels:layout=${JSON.stringify(
             sizes
           )}`;

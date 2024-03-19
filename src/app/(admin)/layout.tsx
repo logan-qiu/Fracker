@@ -21,7 +21,7 @@ export default async function AuthLayout({
   const defaultLayout = layout ? JSON.parse(layout.value) : undefined;
   const defaultCollapsed = collapsed ? JSON.parse(collapsed.value) : false;
 
-  console.log({ layout, defaultLayout, collapsed });
+  // console.log({ layout, defaultLayout, collapsed });
   return (
     <AdminLayout
       session={session}
