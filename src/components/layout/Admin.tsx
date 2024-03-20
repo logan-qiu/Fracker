@@ -1,26 +1,27 @@
-"use client";
-import * as React from "react";
+'use client';
+import * as React from 'react';
 import {
   PanelsTopLeft,
   WalletCards,
   PieChart,
   UsersRound,
   Settings,
-  Landmark,
   SquareKanban,
-} from "lucide-react";
-import { Icons } from "@/components/common/Icons";
-import { cn } from "@/lib/utils";
-import { Separator } from "@/components/ui/separator";
-import { Nav } from "@/components/layout/Nav";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { Profile } from "./Profile";
+  ArrowRightLeft,
+} from 'lucide-react';
+import { Icons } from '@/components/common/Icons';
+import { cn } from '@/lib/utils';
+import { Separator } from '@/components/ui/separator';
+import { Nav } from '@/components/layout/Nav';
+import { TooltipProvider } from '@/components/ui/tooltip';
+import { Profile } from './Profile';
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/resizable";
-import { Session } from "next-auth";
+} from '@/components/ui/resizable';
+import { Session } from 'next-auth';
+import Image from 'next/image.js';
 
 interface AdminLayoutProps {
   defaultLayout: number[] | undefined;
@@ -74,22 +75,28 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             )}`;
           }}
           className={cn(
-            "h-screen",
+            'h-screen',
             isCollapsed &&
-              "min-w-[50px] transition-all duration-300 ease-in-out"
+              'min-w-[50px] transition-all duration-300 ease-in-out'
           )}
         >
           <div
             className={cn(
-              "flex h-[52px] items-center justify-center",
-              isCollapsed ? "h-[52px]" : "px-2"
+              'flex h-[52px] items-center justify-center',
+              isCollapsed ? 'h-[52px]' : 'px-2'
             )}
           >
             {isCollapsed ? (
               <Icons.logo />
             ) : (
               <>
-                <Icons.logo /> <span className='font-bold ml-1'>Fracker</span>
+                <Icons.logo />
+                <Image
+                  src='/icons/Fracker.svg'
+                  alt='fracker logo'
+                  height={100}
+                  width={150}
+                />
               </>
             )}
           </div>
@@ -98,34 +105,34 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             isCollapsed={isCollapsed}
             links={[
               {
-                title: "Overview",
+                title: 'Overview',
                 icon: PanelsTopLeft,
-                variant: "default",
+                variant: 'default',
               },
               {
-                title: "Account",
+                title: 'Account',
                 icon: WalletCards,
-                variant: "ghost",
+                variant: 'ghost',
               },
               {
-                title: "Bank",
-                icon: Landmark,
-                variant: "ghost",
+                title: 'Transaction',
+                icon: ArrowRightLeft,
+                variant: 'ghost',
               },
               {
-                title: "Recent",
+                title: 'Recent',
                 icon: PieChart,
-                variant: "ghost",
+                variant: 'ghost',
               },
               {
-                title: "Category",
+                title: 'Category',
                 icon: SquareKanban,
-                variant: "ghost",
+                variant: 'ghost',
               },
               {
-                title: "User",
+                title: 'User',
                 icon: UsersRound,
-                variant: "ghost",
+                variant: 'ghost',
               },
             ]}
           />
@@ -134,9 +141,9 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             isCollapsed={isCollapsed}
             links={[
               {
-                title: "Settings",
+                title: 'Settings',
                 icon: Settings,
-                variant: "ghost",
+                variant: 'ghost',
               },
             ]}
           />
