@@ -103,6 +103,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
           <Separator />
           <Nav
             isCollapsed={isCollapsed}
+            //TODO: need to change the variant based on the selection
             links={[
               {
                 title: 'Overview',
