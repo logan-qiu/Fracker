@@ -144,6 +144,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
                 title: 'Settings',
                 icon: Settings,
                 variant: 'ghost',
+                url: '/settings'
               },
             ]}
           />
