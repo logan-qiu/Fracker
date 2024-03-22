@@ -109,6 +109,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
                 title: 'Overview',
                 icon: PanelsTopLeft,
                 variant: 'default',
+                url: '/dashboard',
               },
               {
                 title: 'Account',
@@ -145,7 +146,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
                 title: 'Settings',
                 icon: Settings,
                 variant: 'ghost',
-                url: '/settings'
+                url: '/settings',
               },
             ]}
           />
