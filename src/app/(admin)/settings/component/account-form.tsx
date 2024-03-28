@@ -34,11 +34,12 @@ function AccountForm() {
 
   type AccountFormValues = z.infer<typeof accountFormSchema>;
 
+  const defaultValues: Partial<AccountFormValues> = {
+    // from api
+  }
+
   const form = useForm<AccountFormValues>({
-    defaultValues: {
-        displayName: '',
-        dob: new Date()
-    },
+    defaultValues,
     resolver: zodResolver(accountFormSchema),
     mode: "onChange",
   });
