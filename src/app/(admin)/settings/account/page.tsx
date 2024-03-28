@@ -1,6 +1,5 @@
 import { Separator } from '@/components/ui/separator';
-import React from 'react';
-import ProfileForm from '../component/profile-form';
+import AccountForm from '../component/account-form';
 
 
 function page() {
@@ -9,11 +8,11 @@ function page() {
       <div>
         <h3 className='text-lg font-medium'>Account</h3>
         <p className='text-sm text-muted-foreground'>
-          This is how others will see you on the site.
+          Update your account information here
         </p>
       </div>
       <Separator />
-      <ProfileForm />
+      <AccountForm />
     </div>
   );
 }

@@ -21,7 +21,7 @@ const sidebarNavItems = [
   },
   {
     title: 'About',
-    href: '/',
+    href: '/settings/about',
   },
 ];
 
