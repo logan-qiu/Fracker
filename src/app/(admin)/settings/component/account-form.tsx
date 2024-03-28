@@ -173,29 +173,29 @@ function AccountForm() {
                   <Command>
                     <CommandInput placeholder="Search language..." />
                     <CommandList>
-                    <CommandEmpty>No language found.</CommandEmpty>
-                    <CommandGroup>
-                      {languages.map((language) => (
-                        <CommandItem
-                          value={language.label}
-                          key={language.value}
-                          onSelect={() => {
-                            form.setValue("language", language.value);
-                            setIsLanguageOpen(false);
-                          }}
-                        >
-                          <CheckIcon
-                            className={cn(
-                              "mr-2 h-4 w-4",
-                              language.value === field.value
-                                ? "opacity-100"
-                                : "opacity-0"
-                            )}
-                          />
-                          {language.label}
-                        </CommandItem>
-                      ))}
-                    </CommandGroup>
+                      <CommandEmpty>No language found.</CommandEmpty>
+                      <CommandGroup>
+                        {languages.map((language) => (
+                          <CommandItem
+                            value={language.label}
+                            key={language.value}
+                            onSelect={() => {
+                              form.setValue("language", language.value);
+                              setIsLanguageOpen(false);
+                            }}
+                          >
+                            <CheckIcon
+                              className={cn(
+                                "mr-2 h-4 w-4",
+                                language.value === field.value
+                                  ? "opacity-100"
+                                  : "opacity-0"
+                              )}
+                            />
+                            {language.label}
+                          </CommandItem>
+                        ))}
+                      </CommandGroup>
                     </CommandList>
                   </Command>
                 </PopoverContent>
