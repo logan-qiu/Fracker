@@ -60,7 +60,11 @@ function AccountForm() {
   type AccountFormValues = z.infer<typeof accountFormSchema>;
 
   const defaultValues: Partial<AccountFormValues> = {
-    // from api
+    // from api, I will put English as default for now, but the data should come from API
+    // dob:
+    displayName: "existingName",
+    dob: new Date("1994-12-06T08:00:00.000Z"),
+    language: "en",
   };
 
   const form = useForm<AccountFormValues>({
@@ -132,6 +136,18 @@ function AccountForm() {
                     disabled={(date: Date) =>
                       date > new Date() || date < new Date("1900-01-01")
                     }
+                    fromYear={1900}
+                    toYear={2010}
+                    defaultMonth={field.value}
+                    captionLayout="dropdown"
+                    classNames={{
+                      day_hidden: "invisible",
+                      dropdown:
+                        "px-2 py-1.5 rounded-md bg-popover text-popover-foreground text-sm  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background",
+                      caption_dropdowns: "flex gap-3",
+                      vhidden: "hidden",
+                      caption_label: "hidden",
+                    }}
                     initialFocus
                   />
                 </PopoverContent>
