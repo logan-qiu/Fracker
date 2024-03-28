@@ -74,6 +74,7 @@ function AccountForm() {
   };
 
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   return (
     <Form {...form}>
@@ -148,7 +149,7 @@ function AccountForm() {
           render={({ field }) => (
             <FormItem className="flex flex-col">
               <FormLabel>Language</FormLabel>
-              <Popover>
+              <Popover open={isLanguageOpen} onOpenChange={setIsLanguageOpen}>
                 <PopoverTrigger asChild>
                   <FormControl>
                     <Button
@@ -180,6 +181,7 @@ function AccountForm() {
                           key={language.value}
                           onSelect={() => {
                             form.setValue("language", language.value);
+                            setIsLanguageOpen(false);
                           }}
                         >
                           <CheckIcon
