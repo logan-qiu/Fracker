@@ -48,13 +48,13 @@ export default function DashboardPage() {
           <Tabs defaultValue='overview' className='space-y-4'>
             <TabsList>
               <TabsTrigger value='overview'>Overview</TabsTrigger>
-              <TabsTrigger value='analytics' disabled>
+              <TabsTrigger value='analytics'>
                 Analytics
               </TabsTrigger>
-              <TabsTrigger value='reports' disabled>
+              <TabsTrigger value='reports'>
                 Reports
               </TabsTrigger>
-              <TabsTrigger value='notifications' disabled>
+              <TabsTrigger value='notifications'>
                 Notifications
               </TabsTrigger>
             </TabsList>
@@ -174,6 +174,15 @@ export default function DashboardPage() {
                   </CardContent>
                 </Card>
               </div>
+            </TabsContent>
+            <TabsContent value='analytics'>
+              <div className="sample">this is analytics tag</div>
+            </TabsContent>
+            <TabsContent value='reports'>
+              <div className="sample">this is reports tag</div>
+            </TabsContent>
+            <TabsContent value='notifications'>
+              <div className="sample">this is notifications tag</div>
             </TabsContent>
           </Tabs>
         </div>
