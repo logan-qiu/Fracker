@@ -9,11 +9,11 @@ interface settingsLayoutProps {
 const sidebarNavItems = [
   {
     title: 'Profile',
-    href: '/',
+    href: '/settings',
   },
   {
     title: 'Account',
-    href: '/',
+    href: '/settings/account',
   },
   {
     title: 'Appearance',
