@@ -4,13 +4,14 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/ui/icons";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ChangeEvent, useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import GithubSSOButton from "./GithubSSOButton";
+import Link from "next/link";
 
 interface UserRegisterFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface signupFormData {
@@ -57,7 +58,7 @@ export function UserRegisterForm({
         email,
       });
       if (res.status === 201) {
-        router.push('/auth/login');
+        router.push("/auth/login");
       }
     } catch (err) {
       console.log(err);
@@ -108,6 +109,15 @@ export function UserRegisterForm({
     <div className={cn("grid gap-6", className)} {...props}>
       <form onSubmit={onSubmit}>
         <div className="grid gap-2">
+          <Link
+            href="/auth/login"
+            className={cn(
+              buttonVariants({ variant: "ghost" }),
+              "absolute right-4 top-4 md:right-8 md:top-8"
+            )}
+          >
+            Login
+          </Link>
           <div className="grid gap-1">
             <Label className="sr-only" htmlFor="username">
               Username

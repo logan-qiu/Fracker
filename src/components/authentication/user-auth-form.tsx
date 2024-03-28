@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/ui/icons";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { signIn } from "next-auth/react";
@@ -10,6 +10,7 @@ import { ChangeEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import GithubSSOButton from "./GithubSSOButton";
 import { useCustomToast } from "@/hooks/useCustomToast";
+import Link from "next/link";
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 interface loginFormData {
@@ -99,6 +100,15 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     <div className={cn("grid gap-6", className)} {...props}>
       <form onSubmit={onSubmit}>
         <div className="grid gap-2">
+        <Link
+            href="/auth/signup"
+            className={cn(
+              buttonVariants({ variant: "ghost" }),
+              "absolute right-4 top-4 md:right-8 md:top-8"
+            )}
+          >
+            Register
+          </Link>
           <div className="grid gap-1">
             <Label className="sr-only" htmlFor="username">
               Username
