@@ -10,11 +10,9 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-// import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
-// import { MainNav } from "@/app/examples/dashboard/components/main-nav"
-// import { Overview } from "@/app/examples/dashboard/components/overview"
 import { RecentTransactions } from './component/recent-transactions';
 import { ChevronRight } from 'lucide-react';
+import Overview from './component/Overview';
 
 export const metadata: Metadata = {
   title: 'Dashboard',
@@ -169,8 +167,8 @@ export default function DashboardPage() {
                   <CardHeader>
                     <CardTitle>Overview</CardTitle>
                   </CardHeader>
-                  <CardContent className='pl-2'>
-                    {/* <Overview /> */}
+                  <CardContent>
+                    <Overview />
                   </CardContent>
                 </Card>
               </div>
