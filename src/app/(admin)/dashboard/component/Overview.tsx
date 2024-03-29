@@ -2,13 +2,17 @@
 
 import ReactECharts from "echarts-for-react";
 
+const timeStamps = ["Jan", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+const values = [820, 932, 901, 934, 1290, 1330, 1320];
+
 const Overview = () => {
+
   const options = {
     grid: { top: 8, right: 8, bottom: 24, left: 36 },
     xAxis: {
       type: "category",
       // this can be passed from api
-      data: ["Jan", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"],
+      data: timeStamps,
     },
     yAxis: {
       type: "value",
@@ -16,7 +20,7 @@ const Overview = () => {
     series: [
       {
         // this can be passed from api
-        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        data: values,
         type: "bar",
         smooth: true,
         itemStyle: {
