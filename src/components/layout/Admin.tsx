@@ -1,5 +1,5 @@
-'use client';
-import * as React from 'react';
+"use client";
+
 import {
   PanelsTopLeft,
   WalletCards,
@@ -8,20 +8,21 @@ import {
   Settings,
   SquareKanban,
   ArrowRightLeft,
-} from 'lucide-react';
-import { Icons } from '@/components/common/Icons';
-import { cn } from '@/lib/utils';
-import { Separator } from '@/components/ui/separator';
-import { Nav } from '@/components/layout/Nav';
-import { TooltipProvider } from '@/components/ui/tooltip';
-import { Profile } from './Profile';
+} from "lucide-react";
+import { Icons } from "@/components/common/Icons";
+import { cn } from "@/lib/utils";
+import { Separator } from "@/components/ui/separator";
+import { Nav } from "@/components/layout/Nav";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Profile } from "./Profile";
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from '@/components/ui/resizable';
-import { Session } from 'next-auth';
-import Image from 'next/image.js';
+} from "@/components/ui/resizable";
+import { Session } from "next-auth";
+import Image from "next/image.js";
+import { useState } from "react";
 
 interface AdminLayoutProps {
   defaultLayout: number[] | undefined;
@@ -38,7 +39,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
   navCollapsedSize,
   session,
 }) => {
-  const [isCollapsed, setIsCollapsed] = React.useState<boolean>(
+  const [isCollapsed, setIsCollapsed] = useState<boolean>(
     defaultCollapsed ?? false
   );
 
@@ -47,14 +48,14 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
   return (
     <TooltipProvider delayDuration={0}>
       <ResizablePanelGroup
-        direction='horizontal'
+        direction="horizontal"
         onLayout={(sizes: number[]) => {
           // console.log({ sizes });
           document.cookie = `react-resizable-panels:layout=${JSON.stringify(
             sizes
           )}`;
         }}
-        className='h-full items-stretch'
+        className="h-full items-stretch"
       >
         <ResizablePanel
           defaultSize={defaultLayout[0]}
@@ -75,15 +76,15 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             )}`;
           }}
           className={cn(
-            'h-screen',
+            "h-screen",
             isCollapsed &&
-              'min-w-[50px] transition-all duration-300 ease-in-out'
+              "min-w-[50px] transition-all duration-300 ease-in-out"
           )}
         >
           <div
             className={cn(
-              'flex h-[52px] items-center justify-center',
-              isCollapsed ? 'h-[52px]' : 'px-2'
+              "flex h-[52px] items-center justify-center",
+              isCollapsed ? "h-[52px]" : "px-2"
             )}
           >
             {isCollapsed ? (
@@ -92,8 +93,8 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
               <>
                 <Icons.logo />
                 <Image
-                  src='/icons/Fracker.svg'
-                  alt='fracker logo'
+                  src="/icons/Fracker.svg"
+                  alt="fracker logo"
                   height={100}
                   width={150}
                 />
@@ -106,35 +107,29 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             //TODO: need to change the variant based on the selection
             links={[
               {
-                title: 'Overview',
+                title: "Overview",
                 icon: PanelsTopLeft,
-                variant: 'default',
-                url: '/dashboard',
+                url: "/dashboard",
               },
               {
-                title: 'Account',
+                title: "Account",
                 icon: WalletCards,
-                variant: 'ghost',
               },
               {
-                title: 'Transaction',
+                title: "Transaction",
                 icon: ArrowRightLeft,
-                variant: 'ghost',
               },
               {
-                title: 'Recent',
+                title: "Recent",
                 icon: PieChart,
-                variant: 'ghost',
               },
               {
-                title: 'Category',
+                title: "Category",
                 icon: SquareKanban,
-                variant: 'ghost',
               },
               {
-                title: 'User',
+                title: "User",
                 icon: UsersRound,
-                variant: 'ghost',
               },
             ]}
           />
@@ -143,10 +138,9 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
             isCollapsed={isCollapsed}
             links={[
               {
-                title: 'Settings',
+                title: "Settings",
                 icon: Settings,
-                variant: 'ghost',
-                url: '/settings',
+                url: "/settings",
               },
             ]}
           />
@@ -154,14 +148,14 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
         <ResizableHandle withHandle />
         {/* minSize={1174} */}
         <ResizablePanel defaultSize={defaultLayout[1]}>
-          <div className='border-b'>
-            <div className='flex h-[52px] items-center px-4'>
-              <div className='ml-auto flex items-center space-x-4'>
+          <div className="border-b">
+            <div className="flex h-[52px] items-center px-4">
+              <div className="ml-auto flex items-center space-x-4">
                 <Profile session={session} />
               </div>
             </div>
           </div>
-          <div className='flex-1 space-y-4 p-8 pt-6'>{children}</div>
+          <div className="flex-1 space-y-4 p-8 pt-6">{children}</div>
         </ResizablePanel>
       </ResizablePanelGroup>
     </TooltipProvider>
