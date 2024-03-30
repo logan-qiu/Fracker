@@ -10,6 +10,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { usePathname } from "next/navigation"
 
 interface NavProps {
   isCollapsed: boolean
@@ -23,6 +24,8 @@ interface NavProps {
 }
 
 export function Nav({ links, isCollapsed }: NavProps) {
+
+  const pathname = usePathname();
   return (
     <div
       data-collapsed={isCollapsed}
@@ -36,9 +39,9 @@ export function Nav({ links, isCollapsed }: NavProps) {
                 <Link
                   href={link.url ? link.url : '#'}
                   className={cn(
-                    buttonVariants({ variant: link.variant, size: "icon" }),
+                    buttonVariants({ variant: pathname === link.url ? 'default' : 'ghost', size: "icon" }),
                     "h-9 w-9",
-                    link.variant === "default" &&
+                    pathname === link.url &&
                       "dark:bg-muted dark:text-muted-foreground dark:hover:bg-muted dark:hover:text-white"
                   )}
                 >
@@ -60,8 +63,8 @@ export function Nav({ links, isCollapsed }: NavProps) {
               key={index}
               href={link.url ? link.url : '#'}
               className={cn(
-                buttonVariants({ variant: link.variant, size: "xl" }),
-                link.variant === "default" &&
+                buttonVariants({ variant: pathname === link.url ? 'default' : 'ghost', size: "xl" }),
+                pathname === link.url &&
                   "dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
                 "justify-start"
               )}
@@ -72,7 +75,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
                 <span
                   className={cn(
                     "ml-auto",
-                    link.variant === "default" &&
+                    pathname === link.url &&
                       "text-background dark:text-white"
                   )}
                 >
