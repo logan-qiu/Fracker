@@ -24,7 +24,7 @@ const Overview = () => {
         type: "bar",
         smooth: true,
         itemStyle: {
-          opacity: 0.5,
+          color: '#111827',
         },
       },
     ],
