@@ -1,0 +1,902 @@
+[
+    {
+        "amount": 341.84,
+        "bank": "bofa",
+        "posted_date": "01/22/2023",
+        "transaction_date": "01/22/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "oyama"
+    },
+    {
+        "amount": 804.05,
+        "bank": "bofa",
+        "posted_date": "04/09/2023",
+        "transaction_date": "04/09/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 994.91,
+        "bank": "bofa",
+        "posted_date": "12/14/2023",
+        "transaction_date": "12/14/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 783.8,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/03/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 724.51,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/24/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 455.05,
+        "bank": "bofa",
+        "posted_date": "01/09/2023",
+        "transaction_date": "01/09/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 802.98,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "01/28/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 926.56,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/02/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 190.2,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "07/03/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 114.53,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "04/18/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 772.22,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/16/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 195.76,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "10/23/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 423.79,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/04/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 589.27,
+        "bank": "bofa",
+        "posted_date": "02/10/2023",
+        "transaction_date": "02/10/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 356.38,
+        "bank": "bofa",
+        "posted_date": "03/01/2023",
+        "transaction_date": "03/01/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 348.93,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/23/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 890.22,
+        "bank": "bofa",
+        "posted_date": "07/26/2023",
+        "transaction_date": "07/26/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 379.07,
+        "bank": "bofa",
+        "posted_date": "08/19/2023",
+        "transaction_date": "08/19/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 350.19,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/12/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 491.65,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "11/24/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 326.64,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "02/20/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 336.8,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "11/23/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 266.87,
+        "bank": "bofa",
+        "posted_date": "06/17/2023",
+        "transaction_date": "06/17/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 202.91,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/17/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 634.11,
+        "bank": "bofa",
+        "posted_date": "09/18/2023",
+        "transaction_date": "09/18/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 647.6,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "04/28/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 264.9,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "05/27/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 827.97,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/13/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 242.76,
+        "bank": "bofa",
+        "posted_date": "03/01/2023",
+        "transaction_date": "03/01/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 864.16,
+        "bank": "bofa",
+        "posted_date": "11/05/2023",
+        "transaction_date": "11/05/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 855.4,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/05/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 859.93,
+        "bank": "bofa",
+        "posted_date": "10/15/2023",
+        "transaction_date": "10/15/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 24.04,
+        "bank": "bofa",
+        "posted_date": "01/23/2023",
+        "transaction_date": "01/23/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 341.61,
+        "bank": "bofa",
+        "posted_date": "11/12/2023",
+        "transaction_date": "11/12/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 526.31,
+        "bank": "bofa",
+        "posted_date": "11/15/2023",
+        "transaction_date": "11/15/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "oyama"
+    },
+    {
+        "amount": 141.88,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "08/06/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 457.92,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/14/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 785.8,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "02/04/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 294.74,
+        "bank": "bofa",
+        "posted_date": "08/24/2023",
+        "transaction_date": "08/24/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 832.96,
+        "bank": "bofa",
+        "posted_date": "01/02/2023",
+        "transaction_date": "01/02/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 824.85,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/06/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 487.68,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "11/12/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 680.47,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "07/31/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 544.7,
+        "bank": "bofa",
+        "posted_date": "08/12/2023",
+        "transaction_date": "08/12/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 443.98,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/04/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 53.07,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "01/02/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 419.52,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "12/10/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 258.45,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "12/03/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 736.43,
+        "bank": "bofa",
+        "posted_date": "10/30/2023",
+        "transaction_date": "10/30/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 645.64,
+        "bank": "bofa",
+        "posted_date": "02/12/2023",
+        "transaction_date": "02/12/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 337.24,
+        "bank": "bofa",
+        "posted_date": "04/20/2023",
+        "transaction_date": "04/20/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 74.18,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "12/13/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 598.5,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/11/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 995.51,
+        "bank": "bofa",
+        "posted_date": "01/20/2023",
+        "transaction_date": "01/20/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 823.11,
+        "bank": "bofa",
+        "posted_date": "07/29/2023",
+        "transaction_date": "07/29/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 294.42,
+        "bank": "bofa",
+        "posted_date": "10/27/2023",
+        "transaction_date": "10/27/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 453.25,
+        "bank": "bofa",
+        "posted_date": "03/21/2023",
+        "transaction_date": "03/21/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 935.27,
+        "bank": "bofa",
+        "posted_date": "02/24/2023",
+        "transaction_date": "02/24/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 901.96,
+        "bank": "bofa",
+        "posted_date": "12/30/2023",
+        "transaction_date": "12/30/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 674.28,
+        "bank": "bofa",
+        "posted_date": "05/01/2023",
+        "transaction_date": "05/01/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 628.52,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "01/23/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 18.14,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "09/30/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 573.48,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/21/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 102.97,
+        "bank": "bofa",
+        "posted_date": "10/22/2023",
+        "transaction_date": "10/22/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 594.57,
+        "bank": "bofa",
+        "posted_date": "08/17/2023",
+        "transaction_date": "08/17/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 788.99,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/18/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 590.66,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "02/04/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 417.27,
+        "bank": "bofa",
+        "posted_date": "06/29/2023",
+        "transaction_date": "06/29/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 433.52,
+        "bank": "bofa",
+        "posted_date": "01/25/2023",
+        "transaction_date": "01/25/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 745.23,
+        "bank": "bofa",
+        "posted_date": "09/23/2023",
+        "transaction_date": "09/23/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 654.24,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "04/02/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 81.78,
+        "bank": "bofa",
+        "posted_date": "01/16/2023",
+        "transaction_date": "01/16/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 823.12,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/13/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 901.89,
+        "bank": "bofa",
+        "posted_date": "11/11/2023",
+        "transaction_date": "11/11/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 518.55,
+        "bank": "bofa",
+        "posted_date": "01/06/2023",
+        "transaction_date": "01/06/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "chinese medicine"
+    },
+    {
+        "amount": 644.8,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "02/22/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 642.4,
+        "bank": "bofa",
+        "posted_date": "05/12/2023",
+        "transaction_date": "05/12/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 231.76,
+        "bank": "bofa",
+        "posted_date": "05/02/2023",
+        "transaction_date": "05/02/2023",
+        "account_name": "bofa 9401",
+        "category": "restaurant",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 473.96,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "02/09/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 985.98,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "06/25/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 561.16,
+        "bank": "bofa",
+        "posted_date": "12/13/2023",
+        "transaction_date": "12/13/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 950.41,
+        "bank": "bofa",
+        "posted_date": "02/02/2023",
+        "transaction_date": "02/02/2023",
+        "account_name": "bofa 9401",
+        "category": "gas",
+        "transaction_memo": ""
+    },
+    {
+        "amount": 394.05,
+        "bank": "bofa",
+        "posted_date": "03/14/2023",
+        "transaction_date": "03/14/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 187.55,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "07/12/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 108.27,
+        "bank": "bofa",
+        "posted_date": "10/18/2023",
+        "transaction_date": "10/18/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 999.65,
+        "bank": "bofa",
+        "posted_date": "06/19/2023",
+        "transaction_date": "06/19/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "costco"
+    },
+    {
+        "amount": 792.99,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "07/14/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 205.6,
+        "bank": "bofa",
+        "posted_date": "04/08/2023",
+        "transaction_date": "04/08/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 519.4,
+        "bank": "bofa",
+        "posted_date": "08/30/2023",
+        "transaction_date": "08/30/2023",
+        "account_name": "bofa 9401",
+        "category": "amazon",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 522.34,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "08/11/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 613.95,
+        "bank": "bofa",
+        "posted_date": "08/09/2023",
+        "transaction_date": "08/09/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 669.62,
+        "bank": "bofa",
+        "posted_date": "10/11/2023",
+        "transaction_date": "10/11/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "ups shipping snowboard"
+    },
+    {
+        "amount": 64.04,
+        "bank": "bofa",
+        "posted_date": "04/14/2023",
+        "transaction_date": "04/14/2023",
+        "account_name": "bofa 9401",
+        "category": "grocery",
+        "transaction_memo": "market"
+    },
+    {
+        "amount": 750.66,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/12/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "SF Public U"
+    },
+    {
+        "amount": 236.59,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "12/26/2023",
+        "account_name": "bofa 9401",
+        "category": "medicine",
+        "transaction_memo": "costco gas"
+    },
+    {
+        "amount": 201.12,
+        "bank": "bofa",
+        "posted_date": "03/23/2023",
+        "transaction_date": "03/23/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "mirror"
+    },
+    {
+        "amount": 648.57,
+        "bank": "bofa",
+        "posted_date": "pending",
+        "transaction_date": "03/27/2023",
+        "account_name": "bofa 9401",
+        "category": "misc",
+        "transaction_memo": "mom's birthday gift"
+    },
+    {
+        "amount": 441.71,
+        "bank": "bofa",
+        "posted_date": "05/21/2023",
+        "transaction_date": "05/21/2023",
+        "account_name": "bofa 9401",
+        "category": "renovation",
+        "transaction_memo": "oyama"
+    },
+    {
+        "amount": 200.41,
+        "bank": "bofa",
+        "posted_date": "08/07/2023",
+        "transaction_date": "08/07/2023",
+        "account_name": "bofa 9401",
+        "category": "util",
+        "transaction_memo": "oyama"
+    },
+    {
+        "amount": 961.22,
+        "bank": "bofa",
+        "posted_date": "09/25/2023",
+        "transaction_date": "09/25/2023",
+        "account_name": "bofa 9401",
+        "category": "gift",
+        "transaction_memo": "oyama"
+    }
+]
