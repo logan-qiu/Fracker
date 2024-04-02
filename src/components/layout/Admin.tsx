@@ -118,6 +118,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
               {
                 title: "Transaction",
                 icon: ArrowRightLeft,
+                url: "/traansactions",
               },
               {
                 title: "Recent",
