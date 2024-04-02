@@ -38,9 +38,9 @@ export function Nav({ links, isCollapsed }: NavProps) {
                 <Link
                   href={link.url ? link.url : '#'}
                   className={cn(
-                    buttonVariants({ variant: pathname === link.url ? 'default' : 'ghost', size: "icon" }),
+                    buttonVariants({ variant: link.url && pathname.startsWith(link.url) ? 'default' : 'ghost', size: "icon" }),
                     "h-9 w-9",
-                    pathname === link.url &&
+                    link.url && pathname.startsWith(link.url) &&
                       "dark:bg-muted dark:text-muted-foreground dark:hover:bg-muted dark:hover:text-white"
                   )}
                 >
@@ -62,8 +62,8 @@ export function Nav({ links, isCollapsed }: NavProps) {
               key={index}
               href={link.url ? link.url : '#'}
               className={cn(
-                buttonVariants({ variant: pathname === link.url ? 'default' : 'ghost', size: "xl" }),
-                pathname === link.url &&
+                buttonVariants({ variant: link.url && pathname.startsWith(link.url) ? 'default' : 'ghost', size: "xl" }),
+                link.url && pathname.startsWith(link.url) &&
                   "dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
                 "justify-start"
               )}
@@ -74,7 +74,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
                 <span
                   className={cn(
                     "ml-auto",
-                    pathname === link.url &&
+                    link.url && pathname.startsWith(link.url) &&
                       "text-background dark:text-white"
                   )}
                 >
