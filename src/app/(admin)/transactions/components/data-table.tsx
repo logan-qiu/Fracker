@@ -16,6 +16,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { useState } from "react";
+import { DataTableToolbar } from "./data-table-toolbar";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -52,8 +53,7 @@ const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValu
 
   return (
     <div className="space-y-4">
-      {/* <DataTableToolbar table={table} /> */}
-      toolbar
+      <DataTableToolbar table={table} />
       <div className="rounded-md border">
         <Table>
           <TableHeader>
