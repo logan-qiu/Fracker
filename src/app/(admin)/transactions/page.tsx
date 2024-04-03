@@ -1,4 +1,22 @@
+import { z } from "zod";
+import { columns } from "./components/columns";
+import DataTable from "./components/data-table";
+import { transactionSchema } from "./data/schema";
+import { promises as fs } from "fs";
+
+async function getTransactions() {
+  const data = await fs.readFile(
+    "./src/app/(admin)/transactions/data/mockData.json",
+    "utf8"
+  );
+  const tasks = JSON.parse(data.toString());
+
+  return z.array(transactionSchema).parse(tasks);
+}
+
 const TransactionsPage = async () => {
+  const tasks = await getTransactions();
+
   return (
     <>
       <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
@@ -14,8 +32,7 @@ const TransactionsPage = async () => {
             usernav
           </div>
         </div>
-        {/* <DataTable data={tasks} columns={columns} /> */}
-        DataTable
+        <DataTable data={tasks} columns={columns} />
       </div>
     </>
   );
