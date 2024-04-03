@@ -1,902 +1,2002 @@
 [
     {
-        "amount": 341.84,
-        "bank": "bofa",
-        "posted_date": "01/22/2023",
-        "transaction_date": "01/22/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "oyama"
+        "amount": 557.95,
+        "bank": "wf",
+        "account": "8067",
+        "posted_date": "06/18/2023",
+        "transaction_date": "06/10/2023",
+        "account_name": "7148",
+        "category": "health",
+        "transaction_memo": "memo62"
     },
     {
-        "amount": 804.05,
+        "amount": 202.41,
         "bank": "bofa",
-        "posted_date": "04/09/2023",
-        "transaction_date": "04/09/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 994.91,
-        "bank": "bofa",
-        "posted_date": "12/14/2023",
-        "transaction_date": "12/14/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 783.8,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/03/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 724.51,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/24/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 455.05,
-        "bank": "bofa",
-        "posted_date": "01/09/2023",
-        "transaction_date": "01/09/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 802.98,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "01/28/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 926.56,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/02/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 190.2,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "07/03/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 114.53,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "04/18/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 772.22,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/16/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 195.76,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "10/23/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 423.79,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/04/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 589.27,
-        "bank": "bofa",
-        "posted_date": "02/10/2023",
-        "transaction_date": "02/10/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 356.38,
-        "bank": "bofa",
-        "posted_date": "03/01/2023",
-        "transaction_date": "03/01/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 348.93,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/23/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 890.22,
-        "bank": "bofa",
-        "posted_date": "07/26/2023",
-        "transaction_date": "07/26/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 379.07,
-        "bank": "bofa",
-        "posted_date": "08/19/2023",
-        "transaction_date": "08/19/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 350.19,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/12/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 491.65,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "11/24/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 326.64,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "02/20/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 336.8,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "11/23/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 266.87,
-        "bank": "bofa",
-        "posted_date": "06/17/2023",
-        "transaction_date": "06/17/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 202.91,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/17/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 634.11,
-        "bank": "bofa",
-        "posted_date": "09/18/2023",
-        "transaction_date": "09/18/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 647.6,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "04/28/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 264.9,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "05/27/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 827.97,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/13/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 242.76,
-        "bank": "bofa",
-        "posted_date": "03/01/2023",
-        "transaction_date": "03/01/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 864.16,
-        "bank": "bofa",
-        "posted_date": "11/05/2023",
-        "transaction_date": "11/05/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 855.4,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/05/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 859.93,
-        "bank": "bofa",
-        "posted_date": "10/15/2023",
-        "transaction_date": "10/15/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 24.04,
-        "bank": "bofa",
-        "posted_date": "01/23/2023",
-        "transaction_date": "01/23/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 341.61,
-        "bank": "bofa",
-        "posted_date": "11/12/2023",
-        "transaction_date": "11/12/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 526.31,
-        "bank": "bofa",
-        "posted_date": "11/15/2023",
-        "transaction_date": "11/15/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "oyama"
-    },
-    {
-        "amount": 141.88,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "08/06/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 457.92,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/14/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 785.8,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "02/04/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 294.74,
-        "bank": "bofa",
-        "posted_date": "08/24/2023",
-        "transaction_date": "08/24/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 832.96,
-        "bank": "bofa",
-        "posted_date": "01/02/2023",
-        "transaction_date": "01/02/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 824.85,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/06/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 487.68,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "11/12/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 680.47,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "07/31/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 544.7,
-        "bank": "bofa",
-        "posted_date": "08/12/2023",
-        "transaction_date": "08/12/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 443.98,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/04/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 53.07,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "01/02/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 419.52,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "12/10/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 258.45,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "12/03/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 736.43,
-        "bank": "bofa",
-        "posted_date": "10/30/2023",
-        "transaction_date": "10/30/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 645.64,
-        "bank": "bofa",
-        "posted_date": "02/12/2023",
-        "transaction_date": "02/12/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 337.24,
-        "bank": "bofa",
+        "account": "1039",
         "posted_date": "04/20/2023",
-        "transaction_date": "04/20/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 74.18,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "12/13/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 598.5,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/11/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 995.51,
-        "bank": "bofa",
-        "posted_date": "01/20/2023",
-        "transaction_date": "01/20/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 823.11,
-        "bank": "bofa",
-        "posted_date": "07/29/2023",
-        "transaction_date": "07/29/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 294.42,
-        "bank": "bofa",
-        "posted_date": "10/27/2023",
-        "transaction_date": "10/27/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 453.25,
-        "bank": "bofa",
-        "posted_date": "03/21/2023",
-        "transaction_date": "03/21/2023",
-        "account_name": "bofa 9401",
+        "transaction_date": "09/22/2023",
+        "account_name": "2884",
         "category": "grocery",
-        "transaction_memo": "mom's birthday gift"
+        "transaction_memo": "memo59"
     },
     {
-        "amount": 935.27,
-        "bank": "bofa",
-        "posted_date": "02/24/2023",
-        "transaction_date": "02/24/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "costco gas"
+        "amount": 467.23,
+        "bank": "wf",
+        "account": "3220",
+        "posted_date": "12/31/2023",
+        "transaction_date": "10/16/2023",
+        "account_name": "7232",
+        "category": "grocery",
+        "transaction_memo": "memo92"
     },
     {
-        "amount": 901.96,
-        "bank": "bofa",
-        "posted_date": "12/30/2023",
-        "transaction_date": "12/30/2023",
-        "account_name": "bofa 9401",
+        "amount": 52.8,
+        "bank": "citi",
+        "account": "4380",
+        "posted_date": "05/06/2023",
+        "transaction_date": "11/09/2023",
+        "account_name": "3092",
         "category": "gift",
-        "transaction_memo": ""
+        "transaction_memo": "memo72"
     },
     {
-        "amount": 674.28,
-        "bank": "bofa",
-        "posted_date": "05/01/2023",
-        "transaction_date": "05/01/2023",
-        "account_name": "bofa 9401",
+        "amount": 907.3,
+        "bank": "citi",
+        "account": "4132",
+        "posted_date": "11/16/2023",
+        "transaction_date": "05/26/2023",
+        "account_name": "1633",
         "category": "misc",
-        "transaction_memo": ""
+        "transaction_memo": "memo62"
     },
     {
-        "amount": 628.52,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "01/23/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 18.14,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "09/30/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 573.48,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/21/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 102.97,
-        "bank": "bofa",
-        "posted_date": "10/22/2023",
-        "transaction_date": "10/22/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 594.57,
-        "bank": "bofa",
-        "posted_date": "08/17/2023",
-        "transaction_date": "08/17/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 788.99,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/18/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 590.66,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "02/04/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 417.27,
-        "bank": "bofa",
-        "posted_date": "06/29/2023",
-        "transaction_date": "06/29/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 433.52,
-        "bank": "bofa",
-        "posted_date": "01/25/2023",
-        "transaction_date": "01/25/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 745.23,
-        "bank": "bofa",
-        "posted_date": "09/23/2023",
-        "transaction_date": "09/23/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 654.24,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "04/02/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 81.78,
-        "bank": "bofa",
-        "posted_date": "01/16/2023",
-        "transaction_date": "01/16/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 823.12,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/13/2023",
-        "account_name": "bofa 9401",
-        "category": "amazon",
-        "transaction_memo": "ups shipping snowboard"
-    },
-    {
-        "amount": 901.89,
-        "bank": "bofa",
-        "posted_date": "11/11/2023",
-        "transaction_date": "11/11/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 518.55,
-        "bank": "bofa",
-        "posted_date": "01/06/2023",
-        "transaction_date": "01/06/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "chinese medicine"
-    },
-    {
-        "amount": 644.8,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "02/22/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 642.4,
-        "bank": "bofa",
-        "posted_date": "05/12/2023",
-        "transaction_date": "05/12/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 231.76,
-        "bank": "bofa",
-        "posted_date": "05/02/2023",
-        "transaction_date": "05/02/2023",
-        "account_name": "bofa 9401",
-        "category": "restaurant",
-        "transaction_memo": "mom's birthday gift"
-    },
-    {
-        "amount": 473.96,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "02/09/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 985.98,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "06/25/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "costco gas"
-    },
-    {
-        "amount": 561.16,
-        "bank": "bofa",
-        "posted_date": "12/13/2023",
-        "transaction_date": "12/13/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 950.41,
-        "bank": "bofa",
-        "posted_date": "02/02/2023",
-        "transaction_date": "02/02/2023",
-        "account_name": "bofa 9401",
-        "category": "gas",
-        "transaction_memo": ""
-    },
-    {
-        "amount": 394.05,
-        "bank": "bofa",
-        "posted_date": "03/14/2023",
-        "transaction_date": "03/14/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 187.55,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "07/12/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 108.27,
-        "bank": "bofa",
-        "posted_date": "10/18/2023",
+        "amount": 566.03,
+        "bank": "citi",
+        "account": "3879",
+        "posted_date": "06/25/2023",
         "transaction_date": "10/18/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "market"
-    },
-    {
-        "amount": 999.65,
-        "bank": "bofa",
-        "posted_date": "06/19/2023",
-        "transaction_date": "06/19/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "costco"
-    },
-    {
-        "amount": 792.99,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "07/14/2023",
-        "account_name": "bofa 9401",
-        "category": "grocery",
-        "transaction_memo": "mirror"
-    },
-    {
-        "amount": 205.6,
-        "bank": "bofa",
-        "posted_date": "04/08/2023",
-        "transaction_date": "04/08/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 519.4,
-        "bank": "bofa",
-        "posted_date": "08/30/2023",
-        "transaction_date": "08/30/2023",
-        "account_name": "bofa 9401",
+        "account_name": "4487",
         "category": "amazon",
-        "transaction_memo": "ups shipping snowboard"
+        "transaction_memo": "memo71"
     },
     {
-        "amount": 522.34,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "08/11/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "ups shipping snowboard"
+        "amount": 330.99,
+        "bank": "wf",
+        "account": "3066",
+        "posted_date": "08/01/2023",
+        "transaction_date": "11/16/2023",
+        "account_name": "5166",
+        "category": "health",
+        "transaction_memo": "memo17"
     },
     {
-        "amount": 613.95,
-        "bank": "bofa",
-        "posted_date": "08/09/2023",
-        "transaction_date": "08/09/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "mirror"
+        "amount": 117.76,
+        "bank": "wf",
+        "account": "7830",
+        "posted_date": "10/16/2023",
+        "transaction_date": "05/02/2023",
+        "account_name": "8922",
+        "category": "gas",
+        "transaction_memo": "memo90"
     },
     {
-        "amount": 669.62,
+        "amount": 469.4,
         "bank": "bofa",
-        "posted_date": "10/11/2023",
-        "transaction_date": "10/11/2023",
-        "account_name": "bofa 9401",
+        "account": "4982",
+        "posted_date": "07/16/2023",
+        "transaction_date": "10/13/2023",
+        "account_name": "2815",
+        "category": "gas",
+        "transaction_memo": "memo35"
+    },
+    {
+        "amount": 199.0,
+        "bank": "wf",
+        "account": "9293",
+        "posted_date": "06/13/2023",
+        "transaction_date": "01/15/2023",
+        "account_name": "2776",
+        "category": "gas",
+        "transaction_memo": "memo26"
+    },
+    {
+        "amount": 292.31,
+        "bank": "bofa",
+        "account": "9169",
+        "posted_date": "04/12/2023",
+        "transaction_date": "04/27/2023",
+        "account_name": "9283",
         "category": "grocery",
-        "transaction_memo": "ups shipping snowboard"
+        "transaction_memo": "memo1"
     },
     {
-        "amount": 64.04,
+        "amount": 82.22,
         "bank": "bofa",
+        "account": "1523",
+        "posted_date": "02/23/2023",
+        "transaction_date": "10/26/2023",
+        "account_name": "1640",
+        "category": "grocery",
+        "transaction_memo": "memo62"
+    },
+    {
+        "amount": 665.56,
+        "bank": "wf",
+        "account": "9303",
         "posted_date": "04/14/2023",
-        "transaction_date": "04/14/2023",
-        "account_name": "bofa 9401",
+        "transaction_date": "07/01/2023",
+        "account_name": "5748",
+        "category": "amazon",
+        "transaction_memo": "memo74"
+    },
+    {
+        "amount": 273.18,
+        "bank": "bofa",
+        "account": "5304",
+        "posted_date": "10/29/2023",
+        "transaction_date": "07/16/2023",
+        "account_name": "6746",
+        "category": "health",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 168.91,
+        "bank": "bofa",
+        "account": "9349",
+        "posted_date": "08/14/2023",
+        "transaction_date": "02/13/2023",
+        "account_name": "7332",
+        "category": "restaurant",
+        "transaction_memo": "memo12"
+    },
+    {
+        "amount": 475.08,
+        "bank": "citi",
+        "account": "5477",
+        "posted_date": "10/09/2023",
+        "transaction_date": "05/14/2023",
+        "account_name": "6018",
         "category": "grocery",
-        "transaction_memo": "market"
+        "transaction_memo": "memo90"
     },
     {
-        "amount": 750.66,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/12/2023",
-        "account_name": "bofa 9401",
-        "category": "renovation",
-        "transaction_memo": "SF Public U"
-    },
-    {
-        "amount": 236.59,
-        "bank": "bofa",
-        "posted_date": "pending",
+        "amount": 77.09,
+        "bank": "chase",
+        "account": "8608",
+        "posted_date": "04/25/2023",
         "transaction_date": "12/26/2023",
-        "account_name": "bofa 9401",
-        "category": "medicine",
-        "transaction_memo": "costco gas"
+        "account_name": "9029",
+        "category": "utility",
+        "transaction_memo": "memo78"
     },
     {
-        "amount": 201.12,
-        "bank": "bofa",
-        "posted_date": "03/23/2023",
-        "transaction_date": "03/23/2023",
-        "account_name": "bofa 9401",
-        "category": "gift",
-        "transaction_memo": "mirror"
+        "amount": 805.26,
+        "bank": "citi",
+        "account": "6782",
+        "posted_date": "02/27/2023",
+        "transaction_date": "01/06/2023",
+        "account_name": "9042",
+        "category": "health",
+        "transaction_memo": "memo92"
     },
     {
-        "amount": 648.57,
-        "bank": "bofa",
-        "posted_date": "pending",
-        "transaction_date": "03/27/2023",
-        "account_name": "bofa 9401",
-        "category": "misc",
-        "transaction_memo": "mom's birthday gift"
+        "amount": 904.49,
+        "bank": "citi",
+        "account": "1223",
+        "posted_date": "11/08/2023",
+        "transaction_date": "05/10/2023",
+        "account_name": "6332",
+        "category": "health",
+        "transaction_memo": "memo83"
     },
     {
-        "amount": 441.71,
-        "bank": "bofa",
-        "posted_date": "05/21/2023",
-        "transaction_date": "05/21/2023",
-        "account_name": "bofa 9401",
+        "amount": 282.47,
+        "bank": "citi",
+        "account": "7905",
+        "posted_date": "04/22/2023",
+        "transaction_date": "03/12/2023",
+        "account_name": "8422",
+        "category": "health",
+        "transaction_memo": "memo53"
+    },
+    {
+        "amount": 227.77,
+        "bank": "wf",
+        "account": "9808",
+        "posted_date": "09/17/2023",
+        "transaction_date": "12/20/2023",
+        "account_name": "4542",
+        "category": "health",
+        "transaction_memo": "memo86"
+    },
+    {
+        "amount": 670.46,
+        "bank": "citi",
+        "account": "4224",
+        "posted_date": "07/13/2023",
+        "transaction_date": "06/15/2023",
+        "account_name": "2043",
         "category": "renovation",
-        "transaction_memo": "oyama"
+        "transaction_memo": "memo23"
     },
     {
-        "amount": 200.41,
-        "bank": "bofa",
-        "posted_date": "08/07/2023",
-        "transaction_date": "08/07/2023",
-        "account_name": "bofa 9401",
-        "category": "util",
-        "transaction_memo": "oyama"
+        "amount": 262.34,
+        "bank": "citi",
+        "account": "6249",
+        "posted_date": "11/29/2023",
+        "transaction_date": "03/07/2023",
+        "account_name": "9995",
+        "category": "health",
+        "transaction_memo": "memo96"
     },
     {
-        "amount": 961.22,
+        "amount": 72.38,
         "bank": "bofa",
-        "posted_date": "09/25/2023",
-        "transaction_date": "09/25/2023",
-        "account_name": "bofa 9401",
+        "account": "8765",
+        "posted_date": "12/13/2023",
+        "transaction_date": "04/22/2023",
+        "account_name": "2638",
         "category": "gift",
-        "transaction_memo": "oyama"
+        "transaction_memo": "memo27"
+    },
+    {
+        "amount": 335.42,
+        "bank": "wf",
+        "account": "5922",
+        "posted_date": "05/17/2023",
+        "transaction_date": "06/22/2023",
+        "account_name": "1696",
+        "category": "gas",
+        "transaction_memo": "memo68"
+    },
+    {
+        "amount": 304.5,
+        "bank": "chase",
+        "account": "2170",
+        "posted_date": "12/31/2023",
+        "transaction_date": "01/12/2023",
+        "account_name": "3185",
+        "category": "renovation",
+        "transaction_memo": "memo15"
+    },
+    {
+        "amount": 688.05,
+        "bank": "wf",
+        "account": "9067",
+        "posted_date": "04/17/2023",
+        "transaction_date": "08/30/2023",
+        "account_name": "5678",
+        "category": "health",
+        "transaction_memo": "memo18"
+    },
+    {
+        "amount": 832.24,
+        "bank": "wf",
+        "account": "9800",
+        "posted_date": "03/18/2023",
+        "transaction_date": "05/19/2023",
+        "account_name": "6890",
+        "category": "amazon",
+        "transaction_memo": "memo43"
+    },
+    {
+        "amount": 639.54,
+        "bank": "chase",
+        "account": "1221",
+        "posted_date": "05/14/2023",
+        "transaction_date": "12/29/2023",
+        "account_name": "7981",
+        "category": "grocery",
+        "transaction_memo": "memo35"
+    },
+    {
+        "amount": 48.0,
+        "bank": "wf",
+        "account": "3352",
+        "posted_date": "08/07/2023",
+        "transaction_date": "12/29/2023",
+        "account_name": "3119",
+        "category": "gas",
+        "transaction_memo": "memo90"
+    },
+    {
+        "amount": 637.75,
+        "bank": "citi",
+        "account": "9462",
+        "posted_date": "08/03/2023",
+        "transaction_date": "09/15/2023",
+        "account_name": "6751",
+        "category": "health",
+        "transaction_memo": "memo71"
+    },
+    {
+        "amount": 900.65,
+        "bank": "bofa",
+        "account": "4899",
+        "posted_date": "03/05/2023",
+        "transaction_date": "09/01/2023",
+        "account_name": "8790",
+        "category": "utility",
+        "transaction_memo": "memo47"
+    },
+    {
+        "amount": 671.05,
+        "bank": "citi",
+        "account": "1229",
+        "posted_date": "08/13/2023",
+        "transaction_date": "12/08/2023",
+        "account_name": "1480",
+        "category": "health",
+        "transaction_memo": "memo72"
+    },
+    {
+        "amount": 206.7,
+        "bank": "bofa",
+        "account": "8059",
+        "posted_date": "06/04/2023",
+        "transaction_date": "08/10/2023",
+        "account_name": "1483",
+        "category": "renovation",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 744.21,
+        "bank": "wf",
+        "account": "8348",
+        "posted_date": "10/26/2023",
+        "transaction_date": "10/04/2023",
+        "account_name": "2612",
+        "category": "grocery",
+        "transaction_memo": "memo26"
+    },
+    {
+        "amount": 967.2,
+        "bank": "citi",
+        "account": "3044",
+        "posted_date": "03/31/2023",
+        "transaction_date": "05/15/2023",
+        "account_name": "2934",
+        "category": "misc",
+        "transaction_memo": "memo86"
+    },
+    {
+        "amount": 389.45,
+        "bank": "citi",
+        "account": "6009",
+        "posted_date": "01/25/2023",
+        "transaction_date": "08/31/2023",
+        "account_name": "2154",
+        "category": "other",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 164.05,
+        "bank": "chase",
+        "account": "4101",
+        "posted_date": "09/16/2023",
+        "transaction_date": "04/26/2023",
+        "account_name": "8667",
+        "category": "restaurant",
+        "transaction_memo": "memo54"
+    },
+    {
+        "amount": 553.67,
+        "bank": "bofa",
+        "account": "6132",
+        "posted_date": "12/18/2023",
+        "transaction_date": "08/04/2023",
+        "account_name": "8021",
+        "category": "restaurant",
+        "transaction_memo": "memo100"
+    },
+    {
+        "amount": 933.43,
+        "bank": "bofa",
+        "account": "6626",
+        "posted_date": "03/10/2023",
+        "transaction_date": "12/18/2023",
+        "account_name": "9879",
+        "category": "health",
+        "transaction_memo": "memo44"
+    },
+    {
+        "amount": 595.18,
+        "bank": "citi",
+        "account": "2918",
+        "posted_date": "08/13/2023",
+        "transaction_date": "03/23/2023",
+        "account_name": "3409",
+        "category": "renovation",
+        "transaction_memo": "memo8"
+    },
+    {
+        "amount": 269.35,
+        "bank": "bofa",
+        "account": "8643",
+        "posted_date": "05/03/2023",
+        "transaction_date": "11/10/2023",
+        "account_name": "9134",
+        "category": "health",
+        "transaction_memo": "memo37"
+    },
+    {
+        "amount": 191.27,
+        "bank": "chase",
+        "account": "7377",
+        "posted_date": "11/13/2023",
+        "transaction_date": "05/31/2023",
+        "account_name": "6071",
+        "category": "misc",
+        "transaction_memo": "memo28"
+    },
+    {
+        "amount": 789.91,
+        "bank": "wf",
+        "account": "7805",
+        "posted_date": "09/23/2023",
+        "transaction_date": "07/16/2023",
+        "account_name": "4154",
+        "category": "misc",
+        "transaction_memo": "memo8"
+    },
+    {
+        "amount": 721.36,
+        "bank": "chase",
+        "account": "3870",
+        "posted_date": "05/16/2023",
+        "transaction_date": "09/03/2023",
+        "account_name": "1229",
+        "category": "grocery",
+        "transaction_memo": "memo80"
+    },
+    {
+        "amount": 744.14,
+        "bank": "wf",
+        "account": "5900",
+        "posted_date": "02/24/2023",
+        "transaction_date": "04/19/2023",
+        "account_name": "3714",
+        "category": "health",
+        "transaction_memo": "memo42"
+    },
+    {
+        "amount": 311.59,
+        "bank": "bofa",
+        "account": "8087",
+        "posted_date": "07/09/2023",
+        "transaction_date": "03/10/2023",
+        "account_name": "2783",
+        "category": "amazon",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 760.29,
+        "bank": "bofa",
+        "account": "7122",
+        "posted_date": "02/12/2023",
+        "transaction_date": "01/25/2023",
+        "account_name": "4664",
+        "category": "utility",
+        "transaction_memo": "memo58"
+    },
+    {
+        "amount": 560.04,
+        "bank": "bofa",
+        "account": "8088",
+        "posted_date": "07/30/2023",
+        "transaction_date": "03/18/2023",
+        "account_name": "7648",
+        "category": "amazon",
+        "transaction_memo": "memo85"
+    },
+    {
+        "amount": 35.56,
+        "bank": "wf",
+        "account": "8269",
+        "posted_date": "12/10/2023",
+        "transaction_date": "06/19/2023",
+        "account_name": "3316",
+        "category": "gas",
+        "transaction_memo": "memo85"
+    },
+    {
+        "amount": 329.95,
+        "bank": "wf",
+        "account": "1016",
+        "posted_date": "06/16/2023",
+        "transaction_date": "05/09/2023",
+        "account_name": "8899",
+        "category": "misc",
+        "transaction_memo": "memo55"
+    },
+    {
+        "amount": 449.81,
+        "bank": "bofa",
+        "account": "5101",
+        "posted_date": "09/07/2023",
+        "transaction_date": "03/05/2023",
+        "account_name": "6913",
+        "category": "utility",
+        "transaction_memo": "memo90"
+    },
+    {
+        "amount": 521.15,
+        "bank": "chase",
+        "account": "1912",
+        "posted_date": "12/22/2023",
+        "transaction_date": "01/17/2023",
+        "account_name": "3170",
+        "category": "other",
+        "transaction_memo": "memo63"
+    },
+    {
+        "amount": 13.65,
+        "bank": "chase",
+        "account": "8367",
+        "posted_date": "10/24/2023",
+        "transaction_date": "10/01/2023",
+        "account_name": "8687",
+        "category": "gas",
+        "transaction_memo": "memo95"
+    },
+    {
+        "amount": 844.73,
+        "bank": "citi",
+        "account": "6298",
+        "posted_date": "03/09/2023",
+        "transaction_date": "01/31/2023",
+        "account_name": "6541",
+        "category": "gift",
+        "transaction_memo": "memo42"
+    },
+    {
+        "amount": 45.92,
+        "bank": "chase",
+        "account": "9426",
+        "posted_date": "10/27/2023",
+        "transaction_date": "05/05/2023",
+        "account_name": "3551",
+        "category": "renovation",
+        "transaction_memo": "memo56"
+    },
+    {
+        "amount": 564.15,
+        "bank": "bofa",
+        "account": "3017",
+        "posted_date": "01/11/2023",
+        "transaction_date": "11/01/2023",
+        "account_name": "2936",
+        "category": "gas",
+        "transaction_memo": "memo5"
+    },
+    {
+        "amount": 845.01,
+        "bank": "citi",
+        "account": "7059",
+        "posted_date": "08/25/2023",
+        "transaction_date": "09/11/2023",
+        "account_name": "4623",
+        "category": "grocery",
+        "transaction_memo": "memo24"
+    },
+    {
+        "amount": 659.17,
+        "bank": "citi",
+        "account": "3541",
+        "posted_date": "03/27/2023",
+        "transaction_date": "06/20/2023",
+        "account_name": "9660",
+        "category": "restaurant",
+        "transaction_memo": "memo90"
+    },
+    {
+        "amount": 598.07,
+        "bank": "citi",
+        "account": "5954",
+        "posted_date": "02/11/2023",
+        "transaction_date": "08/26/2023",
+        "account_name": "2781",
+        "category": "amazon",
+        "transaction_memo": "memo63"
+    },
+    {
+        "amount": 139.01,
+        "bank": "wf",
+        "account": "2258",
+        "posted_date": "05/07/2023",
+        "transaction_date": "06/16/2023",
+        "account_name": "1441",
+        "category": "renovation",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 956.89,
+        "bank": "bofa",
+        "account": "5044",
+        "posted_date": "10/31/2023",
+        "transaction_date": "05/08/2023",
+        "account_name": "3796",
+        "category": "renovation",
+        "transaction_memo": "memo5"
+    },
+    {
+        "amount": 431.83,
+        "bank": "citi",
+        "account": "2835",
+        "posted_date": "12/25/2023",
+        "transaction_date": "03/04/2023",
+        "account_name": "7756",
+        "category": "restaurant",
+        "transaction_memo": "memo34"
+    },
+    {
+        "amount": 539.76,
+        "bank": "chase",
+        "account": "9100",
+        "posted_date": "05/26/2023",
+        "transaction_date": "07/12/2023",
+        "account_name": "2437",
+        "category": "misc",
+        "transaction_memo": "memo22"
+    },
+    {
+        "amount": 707.01,
+        "bank": "bofa",
+        "account": "3367",
+        "posted_date": "09/18/2023",
+        "transaction_date": "10/12/2023",
+        "account_name": "1853",
+        "category": "other",
+        "transaction_memo": "memo17"
+    },
+    {
+        "amount": 407.17,
+        "bank": "bofa",
+        "account": "8967",
+        "posted_date": "04/14/2023",
+        "transaction_date": "08/06/2023",
+        "account_name": "3547",
+        "category": "gas",
+        "transaction_memo": "memo57"
+    },
+    {
+        "amount": 364.91,
+        "bank": "citi",
+        "account": "7840",
+        "posted_date": "12/30/2023",
+        "transaction_date": "05/07/2023",
+        "account_name": "2050",
+        "category": "gift",
+        "transaction_memo": "memo14"
+    },
+    {
+        "amount": 211.7,
+        "bank": "bofa",
+        "account": "9704",
+        "posted_date": "01/07/2023",
+        "transaction_date": "07/21/2023",
+        "account_name": "8560",
+        "category": "other",
+        "transaction_memo": "memo58"
+    },
+    {
+        "amount": 736.84,
+        "bank": "chase",
+        "account": "1950",
+        "posted_date": "08/25/2023",
+        "transaction_date": "10/11/2023",
+        "account_name": "8356",
+        "category": "gift",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 812.49,
+        "bank": "chase",
+        "account": "7079",
+        "posted_date": "04/16/2023",
+        "transaction_date": "10/12/2023",
+        "account_name": "4534",
+        "category": "health",
+        "transaction_memo": "memo30"
+    },
+    {
+        "amount": 933.35,
+        "bank": "chase",
+        "account": "4029",
+        "posted_date": "03/31/2023",
+        "transaction_date": "07/11/2023",
+        "account_name": "2048",
+        "category": "restaurant",
+        "transaction_memo": "memo16"
+    },
+    {
+        "amount": 962.65,
+        "bank": "citi",
+        "account": "3202",
+        "posted_date": "07/25/2023",
+        "transaction_date": "03/30/2023",
+        "account_name": "3103",
+        "category": "gift",
+        "transaction_memo": "memo5"
+    },
+    {
+        "amount": 742.96,
+        "bank": "wf",
+        "account": "1215",
+        "posted_date": "03/18/2023",
+        "transaction_date": "02/01/2023",
+        "account_name": "7779",
+        "category": "grocery",
+        "transaction_memo": "memo70"
+    },
+    {
+        "amount": 49.72,
+        "bank": "chase",
+        "account": "9185",
+        "posted_date": "10/14/2023",
+        "transaction_date": "04/10/2023",
+        "account_name": "3336",
+        "category": "restaurant",
+        "transaction_memo": "memo6"
+    },
+    {
+        "amount": 367.11,
+        "bank": "citi",
+        "account": "7118",
+        "posted_date": "11/02/2023",
+        "transaction_date": "09/08/2023",
+        "account_name": "5077",
+        "category": "restaurant",
+        "transaction_memo": "memo26"
+    },
+    {
+        "amount": 91.82,
+        "bank": "chase",
+        "account": "4798",
+        "posted_date": "01/21/2023",
+        "transaction_date": "08/03/2023",
+        "account_name": "6756",
+        "category": "health",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 84.57,
+        "bank": "chase",
+        "account": "2774",
+        "posted_date": "08/29/2023",
+        "transaction_date": "09/24/2023",
+        "account_name": "2157",
+        "category": "gift",
+        "transaction_memo": "memo14"
+    },
+    {
+        "amount": 42.62,
+        "bank": "citi",
+        "account": "5525",
+        "posted_date": "05/23/2023",
+        "transaction_date": "05/15/2023",
+        "account_name": "8492",
+        "category": "grocery",
+        "transaction_memo": "memo74"
+    },
+    {
+        "amount": 823.56,
+        "bank": "bofa",
+        "account": "2560",
+        "posted_date": "06/13/2023",
+        "transaction_date": "10/28/2023",
+        "account_name": "4952",
+        "category": "health",
+        "transaction_memo": "memo15"
+    },
+    {
+        "amount": 877.1,
+        "bank": "bofa",
+        "account": "9871",
+        "posted_date": "06/18/2023",
+        "transaction_date": "03/31/2023",
+        "account_name": "7238",
+        "category": "restaurant",
+        "transaction_memo": "memo68"
+    },
+    {
+        "amount": 166.29,
+        "bank": "bofa",
+        "account": "3537",
+        "posted_date": "08/24/2023",
+        "transaction_date": "05/30/2023",
+        "account_name": "5009",
+        "category": "grocery",
+        "transaction_memo": "memo27"
+    },
+    {
+        "amount": 224.25,
+        "bank": "citi",
+        "account": "2567",
+        "posted_date": "08/31/2023",
+        "transaction_date": "07/06/2023",
+        "account_name": "6560",
+        "category": "utility",
+        "transaction_memo": "memo25"
+    },
+    {
+        "amount": 775.36,
+        "bank": "wf",
+        "account": "8114",
+        "posted_date": "06/03/2023",
+        "transaction_date": "01/26/2023",
+        "account_name": "6857",
+        "category": "amazon",
+        "transaction_memo": "memo26"
+    },
+    {
+        "amount": 438.49,
+        "bank": "chase",
+        "account": "9250",
+        "posted_date": "06/22/2023",
+        "transaction_date": "04/13/2023",
+        "account_name": "1492",
+        "category": "gas",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 339.49,
+        "bank": "wf",
+        "account": "7011",
+        "posted_date": "10/02/2023",
+        "transaction_date": "12/13/2023",
+        "account_name": "6649",
+        "category": "gift",
+        "transaction_memo": "memo74"
+    },
+    {
+        "amount": 457.7,
+        "bank": "citi",
+        "account": "1835",
+        "posted_date": "09/16/2023",
+        "transaction_date": "03/14/2023",
+        "account_name": "6599",
+        "category": "restaurant",
+        "transaction_memo": "memo100"
+    },
+    {
+        "amount": 823.14,
+        "bank": "wf",
+        "account": "1643",
+        "posted_date": "12/01/2023",
+        "transaction_date": "08/16/2023",
+        "account_name": "4767",
+        "category": "gift",
+        "transaction_memo": "memo50"
+    },
+    {
+        "amount": 898.88,
+        "bank": "wf",
+        "account": "3140",
+        "posted_date": "05/11/2023",
+        "transaction_date": "05/18/2023",
+        "account_name": "7779",
+        "category": "other",
+        "transaction_memo": "memo12"
+    },
+    {
+        "amount": 708.94,
+        "bank": "citi",
+        "account": "2703",
+        "posted_date": "10/24/2023",
+        "transaction_date": "11/08/2023",
+        "account_name": "7526",
+        "category": "misc",
+        "transaction_memo": "memo20"
+    },
+    {
+        "amount": 962.51,
+        "bank": "wf",
+        "account": "3368",
+        "posted_date": "02/18/2023",
+        "transaction_date": "08/20/2023",
+        "account_name": "7741",
+        "category": "renovation",
+        "transaction_memo": "memo92"
+    },
+    {
+        "amount": 286.87,
+        "bank": "citi",
+        "account": "9350",
+        "posted_date": "02/12/2023",
+        "transaction_date": "10/16/2023",
+        "account_name": "8859",
+        "category": "restaurant",
+        "transaction_memo": "memo97"
+    },
+    {
+        "amount": 840.79,
+        "bank": "wf",
+        "account": "6708",
+        "posted_date": "09/30/2023",
+        "transaction_date": "07/30/2023",
+        "account_name": "2350",
+        "category": "misc",
+        "transaction_memo": "memo58"
+    },
+    {
+        "amount": 443.47,
+        "bank": "wf",
+        "account": "8538",
+        "posted_date": "03/05/2023",
+        "transaction_date": "07/28/2023",
+        "account_name": "9587",
+        "category": "gas",
+        "transaction_memo": "memo8"
+    },
+    {
+        "amount": 750.82,
+        "bank": "citi",
+        "account": "6852",
+        "posted_date": "08/15/2023",
+        "transaction_date": "09/16/2023",
+        "account_name": "7776",
+        "category": "amazon",
+        "transaction_memo": "memo51"
+    },
+    {
+        "amount": 111.1,
+        "bank": "citi",
+        "account": "6699",
+        "posted_date": "08/14/2023",
+        "transaction_date": "12/11/2023",
+        "account_name": "2512",
+        "category": "gas",
+        "transaction_memo": "memo47"
+    },
+    {
+        "amount": 97.21,
+        "bank": "citi",
+        "account": "1829",
+        "posted_date": "08/10/2023",
+        "transaction_date": "12/21/2023",
+        "account_name": "5831",
+        "category": "grocery",
+        "transaction_memo": "memo3"
+    },
+    {
+        "amount": 457.56,
+        "bank": "chase",
+        "account": "6842",
+        "posted_date": "12/23/2023",
+        "transaction_date": "02/10/2023",
+        "account_name": "5707",
+        "category": "gift",
+        "transaction_memo": "memo60"
+    },
+    {
+        "amount": 935.87,
+        "bank": "chase",
+        "account": "2404",
+        "posted_date": "09/01/2023",
+        "transaction_date": "10/22/2023",
+        "account_name": "2475",
+        "category": "other",
+        "transaction_memo": "memo35"
+    },
+    {
+        "amount": 697.77,
+        "bank": "citi",
+        "account": "7564",
+        "posted_date": "12/06/2023",
+        "transaction_date": "08/09/2023",
+        "account_name": "6145",
+        "category": "gas",
+        "transaction_memo": "memo79"
+    },
+    {
+        "amount": 338.38,
+        "bank": "chase",
+        "account": "9064",
+        "posted_date": "09/27/2023",
+        "transaction_date": "02/18/2023",
+        "account_name": "3127",
+        "category": "utility",
+        "transaction_memo": "memo6"
+    },
+    {
+        "amount": 426.04,
+        "bank": "wf",
+        "account": "4146",
+        "posted_date": "08/06/2023",
+        "transaction_date": "09/16/2023",
+        "account_name": "8441",
+        "category": "amazon",
+        "transaction_memo": "memo81"
+    },
+    {
+        "amount": 57.45,
+        "bank": "wf",
+        "account": "9782",
+        "posted_date": "12/08/2023",
+        "transaction_date": "12/03/2023",
+        "account_name": "6012",
+        "category": "health",
+        "transaction_memo": "memo40"
+    },
+    {
+        "amount": 498.09,
+        "bank": "bofa",
+        "account": "4044",
+        "posted_date": "04/10/2023",
+        "transaction_date": "02/16/2023",
+        "account_name": "3533",
+        "category": "grocery",
+        "transaction_memo": "memo1"
+    },
+    {
+        "amount": 267.15,
+        "bank": "citi",
+        "account": "7451",
+        "posted_date": "01/12/2023",
+        "transaction_date": "02/23/2023",
+        "account_name": "7195",
+        "category": "health",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 245.61,
+        "bank": "chase",
+        "account": "9229",
+        "posted_date": "10/29/2023",
+        "transaction_date": "07/29/2023",
+        "account_name": "8611",
+        "category": "utility",
+        "transaction_memo": "memo21"
+    },
+    {
+        "amount": 77.52,
+        "bank": "wf",
+        "account": "7018",
+        "posted_date": "05/29/2023",
+        "transaction_date": "05/01/2023",
+        "account_name": "6475",
+        "category": "misc",
+        "transaction_memo": "memo49"
+    },
+    {
+        "amount": 907.46,
+        "bank": "citi",
+        "account": "6257",
+        "posted_date": "10/20/2023",
+        "transaction_date": "09/02/2023",
+        "account_name": "9982",
+        "category": "health",
+        "transaction_memo": "memo96"
+    },
+    {
+        "amount": 994.71,
+        "bank": "chase",
+        "account": "2274",
+        "posted_date": "01/31/2023",
+        "transaction_date": "05/22/2023",
+        "account_name": "1331",
+        "category": "renovation",
+        "transaction_memo": "memo88"
+    },
+    {
+        "amount": 861.02,
+        "bank": "bofa",
+        "account": "2288",
+        "posted_date": "08/24/2023",
+        "transaction_date": "01/31/2023",
+        "account_name": "5820",
+        "category": "amazon",
+        "transaction_memo": "memo32"
+    },
+    {
+        "amount": 282.01,
+        "bank": "citi",
+        "account": "6415",
+        "posted_date": "08/08/2023",
+        "transaction_date": "06/27/2023",
+        "account_name": "6227",
+        "category": "grocery",
+        "transaction_memo": "memo64"
+    },
+    {
+        "amount": 800.36,
+        "bank": "citi",
+        "account": "5470",
+        "posted_date": "09/19/2023",
+        "transaction_date": "02/21/2023",
+        "account_name": "4402",
+        "category": "utility",
+        "transaction_memo": "memo53"
+    },
+    {
+        "amount": 657.46,
+        "bank": "chase",
+        "account": "2699",
+        "posted_date": "05/25/2023",
+        "transaction_date": "02/28/2023",
+        "account_name": "2660",
+        "category": "utility",
+        "transaction_memo": "memo2"
+    },
+    {
+        "amount": 640.94,
+        "bank": "citi",
+        "account": "4354",
+        "posted_date": "12/11/2023",
+        "transaction_date": "12/28/2023",
+        "account_name": "7631",
+        "category": "health",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 122.33,
+        "bank": "wf",
+        "account": "5816",
+        "posted_date": "03/10/2023",
+        "transaction_date": "07/12/2023",
+        "account_name": "9569",
+        "category": "gas",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 369.04,
+        "bank": "wf",
+        "account": "8131",
+        "posted_date": "05/23/2023",
+        "transaction_date": "04/04/2023",
+        "account_name": "4137",
+        "category": "gift",
+        "transaction_memo": "memo17"
+    },
+    {
+        "amount": 829.73,
+        "bank": "citi",
+        "account": "6954",
+        "posted_date": "04/03/2023",
+        "transaction_date": "02/12/2023",
+        "account_name": "9259",
+        "category": "gas",
+        "transaction_memo": "memo6"
+    },
+    {
+        "amount": 626.47,
+        "bank": "wf",
+        "account": "8371",
+        "posted_date": "08/25/2023",
+        "transaction_date": "08/24/2023",
+        "account_name": "9408",
+        "category": "other",
+        "transaction_memo": "memo22"
+    },
+    {
+        "amount": 902.95,
+        "bank": "citi",
+        "account": "7386",
+        "posted_date": "03/28/2023",
+        "transaction_date": "03/10/2023",
+        "account_name": "2693",
+        "category": "other",
+        "transaction_memo": "memo90"
+    },
+    {
+        "amount": 910.92,
+        "bank": "citi",
+        "account": "2501",
+        "posted_date": "07/02/2023",
+        "transaction_date": "05/04/2023",
+        "account_name": "9773",
+        "category": "grocery",
+        "transaction_memo": "memo45"
+    },
+    {
+        "amount": 712.42,
+        "bank": "citi",
+        "account": "3709",
+        "posted_date": "02/04/2023",
+        "transaction_date": "01/07/2023",
+        "account_name": "8741",
+        "category": "gas",
+        "transaction_memo": "memo52"
+    },
+    {
+        "amount": 74.28,
+        "bank": "chase",
+        "account": "7787",
+        "posted_date": "05/25/2023",
+        "transaction_date": "03/09/2023",
+        "account_name": "1322",
+        "category": "amazon",
+        "transaction_memo": "memo14"
+    },
+    {
+        "amount": 338.23,
+        "bank": "citi",
+        "account": "9930",
+        "posted_date": "11/19/2023",
+        "transaction_date": "12/21/2023",
+        "account_name": "6576",
+        "category": "amazon",
+        "transaction_memo": "memo86"
+    },
+    {
+        "amount": 35.63,
+        "bank": "citi",
+        "account": "6907",
+        "posted_date": "03/17/2023",
+        "transaction_date": "04/05/2023",
+        "account_name": "2781",
+        "category": "gas",
+        "transaction_memo": "memo71"
+    },
+    {
+        "amount": 324.94,
+        "bank": "bofa",
+        "account": "2393",
+        "posted_date": "08/22/2023",
+        "transaction_date": "08/12/2023",
+        "account_name": "5507",
+        "category": "restaurant",
+        "transaction_memo": "memo41"
+    },
+    {
+        "amount": 910.67,
+        "bank": "chase",
+        "account": "7282",
+        "posted_date": "12/07/2023",
+        "transaction_date": "01/30/2023",
+        "account_name": "4008",
+        "category": "renovation",
+        "transaction_memo": "memo40"
+    },
+    {
+        "amount": 120.94,
+        "bank": "bofa",
+        "account": "5463",
+        "posted_date": "08/07/2023",
+        "transaction_date": "10/20/2023",
+        "account_name": "9563",
+        "category": "utility",
+        "transaction_memo": "memo2"
+    },
+    {
+        "amount": 621.98,
+        "bank": "citi",
+        "account": "8957",
+        "posted_date": "09/07/2023",
+        "transaction_date": "04/30/2023",
+        "account_name": "4161",
+        "category": "utility",
+        "transaction_memo": "memo41"
+    },
+    {
+        "amount": 910.86,
+        "bank": "chase",
+        "account": "9856",
+        "posted_date": "09/13/2023",
+        "transaction_date": "07/02/2023",
+        "account_name": "4684",
+        "category": "gift",
+        "transaction_memo": "memo26"
+    },
+    {
+        "amount": 114.74,
+        "bank": "chase",
+        "account": "7027",
+        "posted_date": "01/16/2023",
+        "transaction_date": "10/10/2023",
+        "account_name": "6208",
+        "category": "health",
+        "transaction_memo": "memo28"
+    },
+    {
+        "amount": 105.63,
+        "bank": "chase",
+        "account": "1138",
+        "posted_date": "12/31/2023",
+        "transaction_date": "12/14/2023",
+        "account_name": "8282",
+        "category": "misc",
+        "transaction_memo": "memo42"
+    },
+    {
+        "amount": 185.45,
+        "bank": "bofa",
+        "account": "3948",
+        "posted_date": "11/12/2023",
+        "transaction_date": "07/03/2023",
+        "account_name": "8917",
+        "category": "restaurant",
+        "transaction_memo": "memo6"
+    },
+    {
+        "amount": 345.35,
+        "bank": "citi",
+        "account": "1928",
+        "posted_date": "03/09/2023",
+        "transaction_date": "07/13/2023",
+        "account_name": "7124",
+        "category": "gift",
+        "transaction_memo": "memo30"
+    },
+    {
+        "amount": 141.62,
+        "bank": "wf",
+        "account": "9050",
+        "posted_date": "01/18/2023",
+        "transaction_date": "12/09/2023",
+        "account_name": "4769",
+        "category": "grocery",
+        "transaction_memo": "memo87"
+    },
+    {
+        "amount": 473.44,
+        "bank": "bofa",
+        "account": "4940",
+        "posted_date": "11/18/2023",
+        "transaction_date": "10/16/2023",
+        "account_name": "9387",
+        "category": "other",
+        "transaction_memo": "memo78"
+    },
+    {
+        "amount": 14.63,
+        "bank": "chase",
+        "account": "4897",
+        "posted_date": "03/21/2023",
+        "transaction_date": "03/16/2023",
+        "account_name": "8261",
+        "category": "grocery",
+        "transaction_memo": "memo31"
+    },
+    {
+        "amount": 796.14,
+        "bank": "citi",
+        "account": "8390",
+        "posted_date": "11/01/2023",
+        "transaction_date": "02/15/2023",
+        "account_name": "6570",
+        "category": "gift",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 783.61,
+        "bank": "bofa",
+        "account": "3688",
+        "posted_date": "10/11/2023",
+        "transaction_date": "03/03/2023",
+        "account_name": "2018",
+        "category": "other",
+        "transaction_memo": "memo96"
+    },
+    {
+        "amount": 62.22,
+        "bank": "citi",
+        "account": "6240",
+        "posted_date": "09/16/2023",
+        "transaction_date": "04/19/2023",
+        "account_name": "6436",
+        "category": "grocery",
+        "transaction_memo": "memo36"
+    },
+    {
+        "amount": 107.18,
+        "bank": "citi",
+        "account": "3102",
+        "posted_date": "04/20/2023",
+        "transaction_date": "04/26/2023",
+        "account_name": "9641",
+        "category": "misc",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 342.21,
+        "bank": "wf",
+        "account": "2827",
+        "posted_date": "07/07/2023",
+        "transaction_date": "03/31/2023",
+        "account_name": "9124",
+        "category": "utility",
+        "transaction_memo": "memo24"
+    },
+    {
+        "amount": 898.9,
+        "bank": "wf",
+        "account": "7514",
+        "posted_date": "01/11/2023",
+        "transaction_date": "02/12/2023",
+        "account_name": "9913",
+        "category": "misc",
+        "transaction_memo": "memo75"
+    },
+    {
+        "amount": 189.8,
+        "bank": "wf",
+        "account": "2512",
+        "posted_date": "05/08/2023",
+        "transaction_date": "06/13/2023",
+        "account_name": "7403",
+        "category": "amazon",
+        "transaction_memo": "memo36"
+    },
+    {
+        "amount": 532.54,
+        "bank": "citi",
+        "account": "8489",
+        "posted_date": "08/09/2023",
+        "transaction_date": "12/17/2023",
+        "account_name": "2119",
+        "category": "restaurant",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 223.47,
+        "bank": "citi",
+        "account": "2667",
+        "posted_date": "01/02/2023",
+        "transaction_date": "06/15/2023",
+        "account_name": "8519",
+        "category": "other",
+        "transaction_memo": "memo92"
+    },
+    {
+        "amount": 831.76,
+        "bank": "bofa",
+        "account": "1529",
+        "posted_date": "07/05/2023",
+        "transaction_date": "06/04/2023",
+        "account_name": "9073",
+        "category": "gas",
+        "transaction_memo": "memo31"
+    },
+    {
+        "amount": 628.15,
+        "bank": "bofa",
+        "account": "6976",
+        "posted_date": "02/05/2023",
+        "transaction_date": "09/16/2023",
+        "account_name": "3292",
+        "category": "misc",
+        "transaction_memo": "memo37"
+    },
+    {
+        "amount": 940.81,
+        "bank": "bofa",
+        "account": "5155",
+        "posted_date": "01/13/2023",
+        "transaction_date": "07/01/2023",
+        "account_name": "9757",
+        "category": "grocery",
+        "transaction_memo": "memo47"
+    },
+    {
+        "amount": 840.05,
+        "bank": "wf",
+        "account": "3324",
+        "posted_date": "06/20/2023",
+        "transaction_date": "07/25/2023",
+        "account_name": "9102",
+        "category": "utility",
+        "transaction_memo": "memo48"
+    },
+    {
+        "amount": 135.51,
+        "bank": "chase",
+        "account": "5702",
+        "posted_date": "07/15/2023",
+        "transaction_date": "07/09/2023",
+        "account_name": "2616",
+        "category": "misc",
+        "transaction_memo": "memo77"
+    },
+    {
+        "amount": 511.63,
+        "bank": "citi",
+        "account": "2667",
+        "posted_date": "08/31/2023",
+        "transaction_date": "04/29/2023",
+        "account_name": "9215",
+        "category": "gift",
+        "transaction_memo": "memo32"
+    },
+    {
+        "amount": 72.54,
+        "bank": "citi",
+        "account": "3451",
+        "posted_date": "02/07/2023",
+        "transaction_date": "05/23/2023",
+        "account_name": "1674",
+        "category": "restaurant",
+        "transaction_memo": "memo53"
+    },
+    {
+        "amount": 17.01,
+        "bank": "citi",
+        "account": "1643",
+        "posted_date": "02/09/2023",
+        "transaction_date": "07/27/2023",
+        "account_name": "9218",
+        "category": "health",
+        "transaction_memo": "memo56"
+    },
+    {
+        "amount": 455.62,
+        "bank": "citi",
+        "account": "3375",
+        "posted_date": "08/31/2023",
+        "transaction_date": "12/06/2023",
+        "account_name": "3078",
+        "category": "misc",
+        "transaction_memo": "memo73"
+    },
+    {
+        "amount": 244.02,
+        "bank": "wf",
+        "account": "9786",
+        "posted_date": "06/05/2023",
+        "transaction_date": "02/14/2023",
+        "account_name": "7037",
+        "category": "gift",
+        "transaction_memo": "memo54"
+    },
+    {
+        "amount": 16.05,
+        "bank": "bofa",
+        "account": "3814",
+        "posted_date": "08/24/2023",
+        "transaction_date": "11/12/2023",
+        "account_name": "1673",
+        "category": "gas",
+        "transaction_memo": "memo51"
+    },
+    {
+        "amount": 586.13,
+        "bank": "wf",
+        "account": "8914",
+        "posted_date": "04/19/2023",
+        "transaction_date": "02/03/2023",
+        "account_name": "5637",
+        "category": "gas",
+        "transaction_memo": "memo12"
+    },
+    {
+        "amount": 157.97,
+        "bank": "wf",
+        "account": "6333",
+        "posted_date": "08/21/2023",
+        "transaction_date": "03/31/2023",
+        "account_name": "7717",
+        "category": "gas",
+        "transaction_memo": "memo6"
+    },
+    {
+        "amount": 800.52,
+        "bank": "citi",
+        "account": "9262",
+        "posted_date": "05/12/2023",
+        "transaction_date": "02/14/2023",
+        "account_name": "3402",
+        "category": "utility",
+        "transaction_memo": "memo35"
+    },
+    {
+        "amount": 101.64,
+        "bank": "bofa",
+        "account": "7285",
+        "posted_date": "02/03/2023",
+        "transaction_date": "03/21/2023",
+        "account_name": "9438",
+        "category": "utility",
+        "transaction_memo": "memo96"
+    },
+    {
+        "amount": 572.87,
+        "bank": "wf",
+        "account": "2588",
+        "posted_date": "05/02/2023",
+        "transaction_date": "12/28/2023",
+        "account_name": "8223",
+        "category": "gas",
+        "transaction_memo": "memo28"
+    },
+    {
+        "amount": 936.44,
+        "bank": "chase",
+        "account": "9161",
+        "posted_date": "12/12/2023",
+        "transaction_date": "10/04/2023",
+        "account_name": "7889",
+        "category": "other",
+        "transaction_memo": "memo81"
+    },
+    {
+        "amount": 745.5,
+        "bank": "citi",
+        "account": "7367",
+        "posted_date": "02/11/2023",
+        "transaction_date": "01/06/2023",
+        "account_name": "8758",
+        "category": "grocery",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 534.31,
+        "bank": "citi",
+        "account": "1094",
+        "posted_date": "05/15/2023",
+        "transaction_date": "12/18/2023",
+        "account_name": "7652",
+        "category": "restaurant",
+        "transaction_memo": "memo8"
+    },
+    {
+        "amount": 527.38,
+        "bank": "wf",
+        "account": "8926",
+        "posted_date": "12/15/2023",
+        "transaction_date": "04/06/2023",
+        "account_name": "5975",
+        "category": "grocery",
+        "transaction_memo": "memo98"
+    },
+    {
+        "amount": 442.37,
+        "bank": "chase",
+        "account": "3351",
+        "posted_date": "04/08/2023",
+        "transaction_date": "05/29/2023",
+        "account_name": "6820",
+        "category": "misc",
+        "transaction_memo": "memo29"
+    },
+    {
+        "amount": 552.34,
+        "bank": "chase",
+        "account": "5416",
+        "posted_date": "08/09/2023",
+        "transaction_date": "02/26/2023",
+        "account_name": "6577",
+        "category": "health",
+        "transaction_memo": "memo88"
+    },
+    {
+        "amount": 714.11,
+        "bank": "chase",
+        "account": "2685",
+        "posted_date": "07/05/2023",
+        "transaction_date": "06/03/2023",
+        "account_name": "3886",
+        "category": "renovation",
+        "transaction_memo": "memo7"
+    },
+    {
+        "amount": 246.43,
+        "bank": "bofa",
+        "account": "5741",
+        "posted_date": "08/03/2023",
+        "transaction_date": "02/25/2023",
+        "account_name": "8357",
+        "category": "grocery",
+        "transaction_memo": "memo72"
+    },
+    {
+        "amount": 486.0,
+        "bank": "wf",
+        "account": "3992",
+        "posted_date": "01/10/2023",
+        "transaction_date": "11/13/2023",
+        "account_name": "6107",
+        "category": "gas",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 380.48,
+        "bank": "wf",
+        "account": "6823",
+        "posted_date": "02/18/2023",
+        "transaction_date": "01/15/2023",
+        "account_name": "9031",
+        "category": "renovation",
+        "transaction_memo": "memo74"
+    },
+    {
+        "amount": 726.31,
+        "bank": "citi",
+        "account": "9546",
+        "posted_date": "10/06/2023",
+        "transaction_date": "04/24/2023",
+        "account_name": "8734",
+        "category": "misc",
+        "transaction_memo": "memo22"
+    },
+    {
+        "amount": 653.89,
+        "bank": "wf",
+        "account": "8338",
+        "posted_date": "11/18/2023",
+        "transaction_date": "02/26/2023",
+        "account_name": "7274",
+        "category": "grocery",
+        "transaction_memo": "memo52"
+    },
+    {
+        "amount": 426.99,
+        "bank": "bofa",
+        "account": "7281",
+        "posted_date": "04/21/2023",
+        "transaction_date": "10/09/2023",
+        "account_name": "2212",
+        "category": "utility",
+        "transaction_memo": "memo96"
+    },
+    {
+        "amount": 623.37,
+        "bank": "chase",
+        "account": "3979",
+        "posted_date": "07/18/2023",
+        "transaction_date": "02/13/2023",
+        "account_name": "9086",
+        "category": "utility",
+        "transaction_memo": "memo38"
+    },
+    {
+        "amount": 680.81,
+        "bank": "citi",
+        "account": "8973",
+        "posted_date": "06/19/2023",
+        "transaction_date": "08/27/2023",
+        "account_name": "4764",
+        "category": "health",
+        "transaction_memo": "memo34"
+    },
+    {
+        "amount": 294.95,
+        "bank": "wf",
+        "account": "4334",
+        "posted_date": "04/21/2023",
+        "transaction_date": "08/24/2023",
+        "account_name": "6420",
+        "category": "other",
+        "transaction_memo": "memo3"
+    },
+    {
+        "amount": 351.6,
+        "bank": "wf",
+        "account": "8465",
+        "posted_date": "03/02/2023",
+        "transaction_date": "06/20/2023",
+        "account_name": "6867",
+        "category": "restaurant",
+        "transaction_memo": "memo22"
+    },
+    {
+        "amount": 587.19,
+        "bank": "bofa",
+        "account": "9423",
+        "posted_date": "04/10/2023",
+        "transaction_date": "08/13/2023",
+        "account_name": "3924",
+        "category": "grocery",
+        "transaction_memo": "memo2"
+    },
+    {
+        "amount": 605.55,
+        "bank": "chase",
+        "account": "8511",
+        "posted_date": "11/10/2023",
+        "transaction_date": "09/27/2023",
+        "account_name": "6748",
+        "category": "grocery",
+        "transaction_memo": "memo49"
+    },
+    {
+        "amount": 445.91,
+        "bank": "wf",
+        "account": "6156",
+        "posted_date": "01/18/2023",
+        "transaction_date": "06/16/2023",
+        "account_name": "3427",
+        "category": "gift",
+        "transaction_memo": "memo22"
+    },
+    {
+        "amount": 534.36,
+        "bank": "citi",
+        "account": "2201",
+        "posted_date": "03/04/2023",
+        "transaction_date": "09/29/2023",
+        "account_name": "2229",
+        "category": "utility",
+        "transaction_memo": "memo9"
+    },
+    {
+        "amount": 863.52,
+        "bank": "bofa",
+        "account": "2872",
+        "posted_date": "02/28/2023",
+        "transaction_date": "03/11/2023",
+        "account_name": "6484",
+        "category": "restaurant",
+        "transaction_memo": "memo21"
+    },
+    {
+        "amount": 542.48,
+        "bank": "wf",
+        "account": "6678",
+        "posted_date": "07/23/2023",
+        "transaction_date": "06/07/2023",
+        "account_name": "6460",
+        "category": "gas",
+        "transaction_memo": "memo69"
+    },
+    {
+        "amount": 860.5,
+        "bank": "chase",
+        "account": "3163",
+        "posted_date": "04/22/2023",
+        "transaction_date": "03/20/2023",
+        "account_name": "1922",
+        "category": "grocery",
+        "transaction_memo": "memo25"
+    },
+    {
+        "amount": 76.06,
+        "bank": "citi",
+        "account": "8209",
+        "posted_date": "05/10/2023",
+        "transaction_date": "01/25/2023",
+        "account_name": "5337",
+        "category": "misc",
+        "transaction_memo": "memo85"
+    },
+    {
+        "amount": 965.66,
+        "bank": "bofa",
+        "account": "8547",
+        "posted_date": "03/25/2023",
+        "transaction_date": "01/31/2023",
+        "account_name": "9114",
+        "category": "misc",
+        "transaction_memo": "memo49"
+    },
+    {
+        "amount": 314.49,
+        "bank": "bofa",
+        "account": "9366",
+        "posted_date": "04/04/2023",
+        "transaction_date": "01/10/2023",
+        "account_name": "3066",
+        "category": "grocery",
+        "transaction_memo": "memo31"
+    },
+    {
+        "amount": 29.77,
+        "bank": "citi",
+        "account": "2085",
+        "posted_date": "04/11/2023",
+        "transaction_date": "11/06/2023",
+        "account_name": "9728",
+        "category": "misc",
+        "transaction_memo": "memo47"
+    },
+    {
+        "amount": 950.51,
+        "bank": "wf",
+        "account": "2433",
+        "posted_date": "10/20/2023",
+        "transaction_date": "06/28/2023",
+        "account_name": "6343",
+        "category": "restaurant",
+        "transaction_memo": "memo97"
+    },
+    {
+        "amount": 34.71,
+        "bank": "bofa",
+        "account": "7637",
+        "posted_date": "02/05/2023",
+        "transaction_date": "10/05/2023",
+        "account_name": "7565",
+        "category": "misc",
+        "transaction_memo": "memo27"
+    },
+    {
+        "amount": 916.13,
+        "bank": "wf",
+        "account": "4069",
+        "posted_date": "05/17/2023",
+        "transaction_date": "01/08/2023",
+        "account_name": "1555",
+        "category": "gift",
+        "transaction_memo": "memo87"
+    },
+    {
+        "amount": 759.27,
+        "bank": "citi",
+        "account": "4377",
+        "posted_date": "12/09/2023",
+        "transaction_date": "01/12/2023",
+        "account_name": "5637",
+        "category": "restaurant",
+        "transaction_memo": "memo73"
+    },
+    {
+        "amount": 803.38,
+        "bank": "bofa",
+        "account": "4323",
+        "posted_date": "06/03/2023",
+        "transaction_date": "02/09/2023",
+        "account_name": "6030",
+        "category": "renovation",
+        "transaction_memo": "memo16"
+    },
+    {
+        "amount": 996.84,
+        "bank": "wf",
+        "account": "2331",
+        "posted_date": "10/19/2023",
+        "transaction_date": "05/06/2023",
+        "account_name": "8424",
+        "category": "restaurant",
+        "transaction_memo": "memo70"
+    },
+    {
+        "amount": 194.18,
+        "bank": "bofa",
+        "account": "7263",
+        "posted_date": "05/23/2023",
+        "transaction_date": "12/11/2023",
+        "account_name": "5501",
+        "category": "gift",
+        "transaction_memo": "memo82"
+    },
+    {
+        "amount": 263.8,
+        "bank": "chase",
+        "account": "7056",
+        "posted_date": "03/06/2023",
+        "transaction_date": "06/23/2023",
+        "account_name": "7378",
+        "category": "health",
+        "transaction_memo": "memo98"
+    },
+    {
+        "amount": 365.46,
+        "bank": "chase",
+        "account": "1625",
+        "posted_date": "01/27/2023",
+        "transaction_date": "04/05/2023",
+        "account_name": "9258",
+        "category": "amazon",
+        "transaction_memo": "memo72"
+    },
+    {
+        "amount": 105.38,
+        "bank": "wf",
+        "account": "1931",
+        "posted_date": "04/28/2023",
+        "transaction_date": "11/30/2023",
+        "account_name": "2075",
+        "category": "renovation",
+        "transaction_memo": "memo32"
+    },
+    {
+        "amount": 532.17,
+        "bank": "citi",
+        "account": "8246",
+        "posted_date": "02/03/2023",
+        "transaction_date": "08/23/2023",
+        "account_name": "5049",
+        "category": "health",
+        "transaction_memo": "memo94"
+    },
+    {
+        "amount": 59.2,
+        "bank": "citi",
+        "account": "9708",
+        "posted_date": "01/04/2023",
+        "transaction_date": "04/24/2023",
+        "account_name": "1649",
+        "category": "health",
+        "transaction_memo": "memo26"
     }
 ]

@@ -6,7 +6,7 @@ import { promises as fs } from "fs";
 
 async function getTransactions() {
   const data = await fs.readFile(
-    "./src/app/(admin)/transactions/data/mockData.json",
+    "./src/app/(admin)/transactions/data/mock_transactions.json",
     "utf8"
   );
   const tasks = JSON.parse(data.toString());
@@ -15,7 +15,7 @@ async function getTransactions() {
 }
 
 const TransactionsPage = async () => {
-  const tasks = await getTransactions();
+  const transactions = await getTransactions();
 
   return (
     <>
@@ -24,7 +24,7 @@ const TransactionsPage = async () => {
           <div>
             <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
             <p className="text-muted-foreground">
-              Here&apos;s a list of your tasks for this month!
+              Here&apos;s a list of your transactions for this month!
             </p>
           </div>
           <div className="flex items-center space-x-2">
@@ -32,7 +32,7 @@ const TransactionsPage = async () => {
             usernav
           </div>
         </div>
-        <DataTable data={tasks} columns={columns} />
+        <DataTable data={transactions} columns={columns} />
       </div>
     </>
   );

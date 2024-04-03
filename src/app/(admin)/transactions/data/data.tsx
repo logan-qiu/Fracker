@@ -8,6 +8,8 @@ import {
     QuestionMarkCircledIcon,
     StopwatchIcon,
   } from "@radix-ui/react-icons"
+
+  import { ShoppingBasket } from 'lucide-react';
   
   export const labels = [
     {
@@ -67,5 +69,68 @@ import {
       label: "High",
       value: "high",
       icon: ArrowUpIcon,
+    },
+  ]
+
+  export const categories = [
+    {
+        label: 'Grocery',
+        value: 'grocery',
+        icon: ShoppingBasket
+    },
+    {
+        label: 'Utility',
+        value: 'utility',
+    },
+    {
+        label: 'Amazon',
+        value: 'amazon',
+    },
+    {
+        label: 'Renovation',
+        value: 'renovation',
+    },
+    {
+        label: 'Restaurant',
+        value: 'restaurant',
+    },
+    {
+        label: 'Gift',
+        value: 'gift',
+    },
+    {
+        label: 'Gas',
+        value: 'gas',
+    },
+    {
+        label: 'Health',
+        value: 'health',
+    },
+    {
+        label: 'Misc',
+        value: 'misc',
+    },
+    {
+        label: 'Other',
+        value: 'other',
+    }
+  ]
+
+  export const banks = [
+    {
+        bank: 'Bank of America',
+        bankValue: 'bofa'
+    },
+    {
+        bank: 'Citi',
+        bankValue: 'citi'
+    },
+    {
+        bank: 'Wells Fargo',
+        bankValue: 'wf'
+    },
+    {
+        bank: 'Chase',
+        bankValue: 'chase'
     },
   ]
