@@ -118,19 +118,19 @@ import {
 
   export const banks = [
     {
-        bank: 'Bank of America',
-        bankValue: 'bofa'
+        label: 'Bank of America',
+        value: 'bofa'
     },
     {
-        bank: 'Citi',
-        bankValue: 'citi'
+        label: 'Citi',
+        value: 'citi'
     },
     {
-        bank: 'Wells Fargo',
-        bankValue: 'wf'
+        label: 'Wells Fargo',
+        value: 'wf'
     },
     {
-        bank: 'Chase',
-        bankValue: 'chase'
+        label: 'Chase',
+        value: 'chase'
     },
   ]

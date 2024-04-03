@@ -17,6 +17,7 @@ import {
 } from "@tanstack/react-table";
 import { useState } from "react";
 import { DataTableToolbar } from "./data-table-toolbar";
+import { DataTablePagination } from "./data-table-pagination";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -104,8 +105,7 @@ const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValu
           </TableBody>
         </Table>
       </div>
-      {/* <DataTablePagination table={table} /> */}
-      pagination
+      <DataTablePagination table={table} />
     </div>
   )
 };

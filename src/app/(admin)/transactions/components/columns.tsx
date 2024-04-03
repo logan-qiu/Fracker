@@ -65,12 +65,12 @@ export const columns: ColumnDef<Transaction>[] = [
     ),
     cell: ({ row }) => {
       const bank = banks.find(
-        (bank) => bank.bankValue === row.getValue("bank")
+        (bank) => bank.value === row.getValue("bank")
       );
       if (!bank) return null;
       return (
         <div className="w-[120px]">
-          <Badge variant='outline'>{bank.bank}</Badge>
+          <Badge variant='outline'>{bank.label}</Badge>
         </div>
       );
     },
