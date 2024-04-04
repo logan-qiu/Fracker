@@ -5,7 +5,7 @@ import { auth } from "@/lib/auth";
 import { Session } from "next-auth";
 
 export const metadata: Metadata = {
-  title: "SaaS Admin Starter",
+  title: "SaaS Admin Dashboard",
   description: "Authentication forms built using tailwind, shadcn.",
 };
 

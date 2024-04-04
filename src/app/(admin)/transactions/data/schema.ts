@@ -9,7 +9,6 @@ export const transactionSchema = z.object({
     category: z.string(),
     transaction_memo: z.string(),
     amount: z.number(),
-
   });
   
   export type Transaction = z.infer<typeof transactionSchema>;
