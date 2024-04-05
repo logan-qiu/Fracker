@@ -1,5 +1,5 @@
-import Agreement from "@/components/authentication/Agreement";
-import { UserAuthForm } from "@/components/authentication/Authform";
+import Agreement from "@/components/Authentication/Agreement";
+import { UserAuthForm } from "@/components/Authentication/Authform";
 
 function page() {
   return (

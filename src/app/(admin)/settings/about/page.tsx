@@ -1,6 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import React from "react";
-import ShareDialog from "../component/share-dialog";
+import ShareDialog from "@/components/Settings/ShareDialog";
 
 function page() {
   return (

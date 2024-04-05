@@ -1,7 +1,7 @@
 import { z } from "zod";
-import { columns } from "../../../components/Transaction/columns";
-import DataTable from "../../../components/DataTable/DataTable";
-import { transactionSchema } from "../../../components/common/schema";
+import { columns } from "@/components/Transaction/columns";
+import DataTable from "@/components/DataTable/DataTable";
+import { transactionSchema, type Transaction } from "@/components/common/schema";
 import { promises as fs } from "fs";
 
 async function getTransactions() {
@@ -15,7 +15,7 @@ async function getTransactions() {
 }
 
 const TransactionsPage = async () => {
-  const transactions = await getTransactions();
+  const transactions: Transaction[] = await getTransactions();
 
   return (
     <>

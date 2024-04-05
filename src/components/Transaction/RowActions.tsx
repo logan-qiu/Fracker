@@ -18,7 +18,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { labels } from "./columns-meta"
 import { transactionSchema } from "../common/schema"
 
 interface DataTableRowActionsProps<TData> {

@@ -1,5 +1,5 @@
 import { Separator } from '@/components/ui/separator';
-import AccountForm from '../component/account-form';
+import AccountForm from '@/components/Settings/AccountForm';
 
 
 function page() {

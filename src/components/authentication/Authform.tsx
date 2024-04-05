@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { signIn } from "next-auth/react";
 import { ChangeEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import GithubSSOButton from "./GithubSSOButton";
+import GithubSSOButton from './GithubSSOButton'
 import { useCustomToast } from "@/hooks/useCustomToast";
 import Link from "next/link";
 

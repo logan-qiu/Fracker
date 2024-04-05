@@ -82,7 +82,7 @@ export const columns: ColumnDef<Transaction>[] = [
       <DataTableColumnHeader column={column} title="Account" />
     ),
     cell: ({ row }) => {
-      return <div className="w-[120px]">{row.getValue("account_name")}</div>;
+      return <div className="w-[60px]">{row.getValue("account_name")}</div>;
     },
     enableSorting: true,
     enableHiding: false,
