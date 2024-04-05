@@ -93,6 +93,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
               <>
                 <Icons.logo />
                 <Image
+                  priority
                   src="/icons/Fracker.svg"
                   alt="fracker logo"
                   height={100}
