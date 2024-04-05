@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { columns } from "../../../components/Transaction/columns";
-import DataTable from "../../../components/DataTable/data-table";
+import DataTable from "../../../components/DataTable/DataTable";
 import { transactionSchema } from "../../../components/common/schema";
 import { promises as fs } from "fs";
 
