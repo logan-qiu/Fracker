@@ -130,8 +130,9 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
                 icon: SquareKanban,
               },
               {
-                title: "User",
+                title: "Users",
                 icon: UsersRound,
+                url: '/users'
               },
             ]}
           />
