@@ -1,6 +1,10 @@
 import React from 'react'
 
 function UserPage() {
+
+  const getUsers = async () => {
+    // import the mock data for now
+  }
   return (
     <>
     <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">

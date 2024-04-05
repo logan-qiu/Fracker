@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "email": "test1@gmail.com",
+        "name": "Olivia Martin",
+        "user_name": "tester1"
+    },
+    {
+        "id": 2,
+        "email": "test2@gmail.com",
+        "name": "Jackson Lee",
+        "user_name": "tester2"
+    },
+    {
+        "id": 3,
+        "email": "test3@gmail.com",
+        "name": "Isabella Nguyen",
+        "user_name": "tester3"
+    },
+    {
+        "id": 4,
+        "email": "test4@gmail.com",
+        "name": "William Kim",
+        "user_name": "tester4"
+    },
+    {
+        "id": 5,
+        "email": "test5@gmail.com",
+        "name": "Sofia Davis",
+        "user_name": "tester5"
+    }
+]
