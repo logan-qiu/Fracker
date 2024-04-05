@@ -25,6 +25,7 @@ export function DataTablePagination<TData>({
   return (
     <div className="flex items-center justify-between px-2">
       <div className="flex-1 text-sm text-muted-foreground">
+        {/* TODO: seperate the pagination logic here for reusability */}
         {table.getFilteredSelectedRowModel().rows.length} of{" "}
         {table.getFilteredRowModel().rows.length} row(s) selected.
       </div>

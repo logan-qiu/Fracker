@@ -16,8 +16,8 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { useState } from "react";
-import { DataTableToolbar } from "./data-table-toolbar";
-import { DataTablePagination } from "./data-table-pagination";
+import { DataTableToolbar } from "./Toolbar";
+import { DataTablePagination } from "./Pagination";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];

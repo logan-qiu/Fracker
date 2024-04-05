@@ -1,12 +1,12 @@
 import { z } from "zod";
-import { columns } from "./components/columns";
-import DataTable from "./components/data-table";
-import { transactionSchema } from "./data/schema";
+import { columns } from "../../../components/Transaction/columns";
+import DataTable from "../../../components/DataTable/data-table";
+import { transactionSchema } from "../../../components/common/schema";
 import { promises as fs } from "fs";
 
 async function getTransactions() {
   const data = await fs.readFile(
-    "./src/app/(admin)/transactions/data/mock_transactions.json",
+    "./src/components/Transaction/mock_transactions.json",
     "utf8"
   );
   const tasks = JSON.parse(data.toString());
@@ -26,10 +26,6 @@ const TransactionsPage = async () => {
             <p className="text-muted-foreground">
               Here&apos;s a list of your transactions for this month!
             </p>
-          </div>
-          <div className="flex items-center space-x-2">
-            {/* <UserNav /> */}
-            usernav
           </div>
         </div>
         <DataTable data={transactions} columns={columns} />

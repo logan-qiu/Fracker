@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 // import { DataTableViewOptions } from "@/app/(app)/examples/tasks/components/data-table-view-options"
 
-import { banks, categories} from "../data/data"
-import { DataTableFacetedFilter } from "./data-table-faceted-filter"
+import { banks, categories} from "../Transaction/columns-meta"
+import { DataTableFacetedFilter } from "./Faceted-filter"
 
 interface DataTableToolbarProps<TData> {
   table: Table<TData>

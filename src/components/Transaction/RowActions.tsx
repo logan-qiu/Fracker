@@ -18,8 +18,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { labels } from "../data/data"
-import { transactionSchema } from "../data/schema"
+import { labels } from "./columns-meta"
+import { transactionSchema } from "../common/schema"
 
 interface DataTableRowActionsProps<TData> {
   row: Row<TData>
@@ -43,8 +43,8 @@ export function DataTableRowActions<TData>({
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[160px]">
         <DropdownMenuItem>Edit</DropdownMenuItem>
-        <DropdownMenuItem>Make a copy</DropdownMenuItem>
-        <DropdownMenuItem>Favorite</DropdownMenuItem>
+        {/* <DropdownMenuItem>Make a copy</DropdownMenuItem> */}
+        {/* <DropdownMenuItem>Favorite</DropdownMenuItem> */}
         <DropdownMenuSeparator />
         {/* <DropdownMenuSub>
           <DropdownMenuSubTrigger>Labels</DropdownMenuSubTrigger>
@@ -58,7 +58,7 @@ export function DataTableRowActions<TData>({
             </DropdownMenuRadioGroup>
           </DropdownMenuSubContent>
         </DropdownMenuSub> */}
-        <DropdownMenuSeparator />
+        {/* <DropdownMenuSeparator /> */}
         <DropdownMenuItem>
           Delete
           <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>

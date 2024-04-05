@@ -1,14 +1,12 @@
 "use client";
 
 import { ColumnDef } from "@tanstack/react-table";
-
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
-
-import { labels, priorities, statuses, categories, banks } from "../data/data";
-import { DataTableColumnHeader } from "./data-table-column-header";
-import { DataTableRowActions } from "./data-table-row-actions";
-import { Transaction } from "../data/schema";
+import { categories, banks } from "./columns-meta";
+import { DataTableColumnHeader } from "../DataTable/Column-header";
+import { DataTableRowActions } from "./RowActions";
+import { Transaction } from "../common/schema";
 
 export const columns: ColumnDef<Transaction>[] = [
   {
@@ -64,15 +62,16 @@ export const columns: ColumnDef<Transaction>[] = [
       <DataTableColumnHeader column={column} title="Bank" />
     ),
     cell: ({ row }) => {
-      const bank = banks.find(
-        (bank) => bank.value === row.getValue("bank")
-      );
+      const bank = banks.find((bank) => bank.value === row.getValue("bank"));
       if (!bank) return null;
       return (
         <div className="w-[120px]">
-          <Badge variant='outline'>{bank.label}</Badge>
+          <Badge variant="outline">{bank.label}</Badge>
         </div>
       );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id))
     },
     enableSorting: true,
     enableHiding: false,
@@ -83,11 +82,7 @@ export const columns: ColumnDef<Transaction>[] = [
       <DataTableColumnHeader column={column} title="Account" />
     ),
     cell: ({ row }) => {
-      return (
-        <div className="w-[120px]">
-          {row.getValue('account_name')}
-        </div>
-      );
+      return <div className="w-[120px]">{row.getValue("account_name")}</div>;
     },
     enableSorting: true,
     enableHiding: false,
@@ -104,9 +99,12 @@ export const columns: ColumnDef<Transaction>[] = [
       if (!category) return null;
       return (
         <div className="w-[60px]">
-          <Badge variant='outline'>{category.label}</Badge>
+          <Badge variant="outline">{category.label}</Badge>
         </div>
       );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id))
     },
     enableSorting: true,
     enableHiding: false,
@@ -118,9 +116,7 @@ export const columns: ColumnDef<Transaction>[] = [
     ),
     cell: ({ row }) => {
       return (
-        <div className="w-[120px]">
-          {row.getValue('transaction_memo')}
-        </div>
+        <div className="w-[120px]">{row.getValue("transaction_memo")}</div>
       );
     },
     enableSorting: true,
