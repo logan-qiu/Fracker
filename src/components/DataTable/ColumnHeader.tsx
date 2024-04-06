@@ -5,7 +5,7 @@ import {
     EyeNoneIcon,
   } from "@radix-ui/react-icons"
   import { Column } from "@tanstack/react-table"
-  
+
   import { cn } from "@/lib/utils"
   import { Button } from "@/components/ui/button"
   import {
@@ -15,13 +15,13 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
-  
+
   interface DataTableColumnHeaderProps<TData, TValue>
     extends React.HTMLAttributes<HTMLDivElement> {
     column: Column<TData, TValue>
     title: string
   }
-  
+
   export function DataTableColumnHeader<TData, TValue>({
     column,
     title,
@@ -30,7 +30,7 @@ import {
     if (!column.getCanSort()) {
       return <div className={cn(className)}>{title}</div>
     }
-  
+
     return (
       <div className={cn("flex items-center space-x-2", className)}>
         <DropdownMenu>

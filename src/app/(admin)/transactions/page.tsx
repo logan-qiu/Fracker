@@ -9,9 +9,9 @@ async function getTransactions() {
     "./src/components/Transaction/mock_transactions.json",
     "utf8"
   );
-  const tasks = JSON.parse(data.toString());
+  const transactions = JSON.parse(data.toString());
 
-  return z.array(transactionSchema).parse(tasks);
+  return z.array(transactionSchema).parse(transactions);
 }
 
 const TransactionsPage = async () => {
