@@ -23,7 +23,7 @@ interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
 }
-
+// TODO: more reusable, there might be several components using this component
 const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValue>) => {
   const [rowSelection, setRowSelection] = useState({});
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({});

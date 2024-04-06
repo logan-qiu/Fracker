@@ -21,7 +21,7 @@ import {
     column: Column<TData, TValue>
     title: string
   }
-
+// TODO: more reusable, there might be several components using this component
   export function DataTableColumnHeader<TData, TValue>({
     column,
     title,
