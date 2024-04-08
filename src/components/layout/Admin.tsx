@@ -23,6 +23,7 @@ import {
 import { Session } from "next-auth";
 import Image from "next/image.js";
 import { useState } from "react";
+import { ColorModeToggle } from "../ColorMode/ColorModeToggleButton";
 
 interface AdminLayoutProps {
   defaultLayout: number[] | undefined;
@@ -154,6 +155,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
           <div className="border-b">
             <div className="flex h-[52px] items-center px-4">
               <div className="ml-auto flex items-center space-x-4">
+                <ColorModeToggle />
                 <Profile session={session} />
               </div>
             </div>
