@@ -1,6 +1,13 @@
-'use client'
+"use client";
 
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import {
   ColumnDef,
   ColumnFiltersState,
@@ -18,13 +25,18 @@ import {
 import { useState } from "react";
 import { DataTableToolbar } from "./Toolbar";
 import { DataTablePagination } from "./Pagination";
+import { FilterCols, banks, categories } from "../Transaction/columnsMeta";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
 }
+
 // TODO: more reusable, there might be several components using this component
-const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValue>) => {
+const DataTable = <TData, TValue>({
+  columns,
+  data,
+}: DataTableProps<TData, TValue>) => {
   const [rowSelection, setRowSelection] = useState({});
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({});
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
@@ -54,7 +66,20 @@ const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValu
 
   return (
     <div className="space-y-4">
-      <DataTableToolbar table={table} />
+      <DataTableToolbar
+        table={table}
+        filterCol="transaction_memo"
+        filterGroup={[
+          {
+            name: "bank",
+            options: banks,
+          },
+          {
+            name: "category",
+            options: categories,
+          },
+        ]}
+      />
       <div className="rounded-md border">
         <Table>
           <TableHeader>
@@ -70,7 +95,7 @@ const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValu
                             header.getContext()
                           )}
                     </TableHead>
-                  )
+                  );
                 })}
               </TableRow>
             ))}
@@ -107,7 +132,7 @@ const DataTable = <TData, TValue>({ columns, data }: DataTableProps<TData, TValu
       </div>
       <DataTablePagination table={table} />
     </div>
-  )
+  );
 };
 
 export default DataTable;
